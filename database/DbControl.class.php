@@ -117,7 +117,7 @@ class DbControl implements DbControlInterface
                 }
             }
         }
-        if (eregi("<[[:digit:]]+>", $query)) {
+        if (preg_match("/(\d+)/", $query)) {
             throw new DbControlException("Number of replacement elements does not corresponds the number of parametres in initiate. \n". $query);
         }
         try {
