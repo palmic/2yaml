@@ -1,0 +1,1593 @@
+#%YAML 1.1
+# csv2db.yamaha_martin_bike
+
+ShopMotorcycle:
+  -
+    name: YZF-R1
+    price: 339990
+    vendor: yamaha
+    selltype: skladem
+    category: supersport
+    description_short: Zrozena z MotoGP
+    description: |-
+      Zrozena z MotoGP.
+      Model YZF-R1 je těsněji spojen s naším vítězným modelem MotoGP M1 než kdy předtím. Jeho inovativní řadový čtyřválec o objemu 998 ccm se vyznačuje Crossplane klikovou hřídelí s nerovnoměrným intervalem zapalování, což zajišťuje vynikající ovládání plynu a dodává pocit, že jezdcova ruka je přímo spojena se zadním kolem.
+      Nový motor vypadá a zní lépe než dříve a výfuk vydává nezapomenutelný zvuk. Motor inspirovaný závody MotoGP nabízí 182 PS a 115,5 Nm krouticího momentu a je nejmodernějším motorem, který jste kdy mohli na supersportu značky Yamaha vyzkoušet.
+      A pro dokonalou souhru pocitu a ovladatelnosti nabízí model R1 s zcela nový podvozek Deltabox s ideální tuhostí.
+    rozmery: 2 070 x 715 x 1 130 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, paralelní čtyřválec s náklonem dopředu, 4ventilový
+    objem: 998
+    zdvih: 78,0 x 52,2
+    komprese: 12.3 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 6rychlostní
+    vykon: 133.9 kW (182.1PS) @ 12 500 rpm (without air-induction)
+    tocivy_moment: 115.5 Nm (11.8 kg-m) @ 10 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Upside-down telescopic fork, Ø 43 mm
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 120
+    zdvih_pruziny_vzadu: 120
+    brzda_vpredu: Dvojitá kotoučová, Ø 310 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 135
+    vyska_sedadla_bez_zateze: 835
+    objem_nadrze: 18
+    hmotnost: 206
+    pneu_predek: 190/55 ZR17M/C (75W)
+    pneu_zadek: 120/70 ZR17M/C (58W)
+    photos: [motorcycle]
+
+  -
+    name: YZF - R6
+    description_short: Ovládni extrém
+    price: 259990
+    vendor: yamaha
+    selltype: skladem
+    category: supersport
+    description: |-
+      Stačí jediná jízda na R6 a okamžitě poznáte, že tento stroj se zrodil na závodní dráze. Technologie vyvinutá pro závody MotoGP je zde vyladěná tak, aby Vám poskytla vynikající výkon motoru a podvozku, který je obvykle dostupný pouze pro závodní jezdce.
+      Vysokootáčkový motor s krátkým zdvihem nabízí uchvacující výkon, který je navíc podpořen nejmodernějšími technologiemi: YCC-I (Yamaha Chip Controlled-Intake / elektronicky řízená, motorem poháněná variabilní sací hrdla) a YCC-T (Yamaha Chip Controlled-Throttle / elektronicky řízené ovládání plynu).
+      Všechno kolem R6 se orientuje na maximálně přesné projíždění zatáček a zajištění dokonalé vazby jezdec-stroj. Podvozek vám poskytne velice citlivé ovládání s ostrostí břitvy a nastavitelné přední vidlice pro optimální výkon na cestě.
+    rozmery: 2 040 x 705 x 1 100 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, paralelní čtyřválec s náklonem dopředu, 4ventilový
+    objem: 599
+    zdvih: 67,0 x 42,5
+    komprese: 13.1 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 6rychlostní
+    vykon: 91.0 kW (123.8PS) @ 14 500 rpm
+    tocivy_moment: 65.7 Nm (6.7 kg-m) @ 10 500 rpm
+    karburator: Vstřikování paliva
+    chlazeni: kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Upside-down telescopic fork, Ø 41 mm
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 115
+    zdvih_pruziny_vzadu: 120
+    brzda_vpredu: Dvojitá kotoučová, Ø 310 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 130
+    vyska_sedadla_bez_zateze: 850
+    objem_nadrze: 17
+    hmotnost: 189
+    pneu_predek: 180/55 ZR17M/C (73W)
+    pneu_zadek: 120/70 ZR17M/C (58W)
+    photos: [motorcycle]
+
+  -
+    name: YZF - R125
+    description_short: U ní řada R začíná
+    price: 94990
+    vendor: yamaha
+    selltype: skladem
+    category: supersport
+    description: |-
+      Se svým designem řady R, sportovním výkonem a ovládáním je YZF-R125 dokonalým zasvěcením do řady supersportů.
+
+      Jeho kapalinou chlazený čtyřtaktní jednoválec SOHC se 4 ventily je vyladěn tak, aby poskytoval vysokootáčkový výkon. A jako všechny stroje série R je i tento vybaven lehkým rámem Deltabox. Ve spojení s litou hliníkovou kyvnou vidlicí disponuje R125 ve své třídě nepřekonatelným ovládáním.
+      Lehká pětipaprsková kola pomáhají minimalizovat neodpruženou hmotnost a poskytují působivou přilnavost, zatímco účinná brzdná schopnost vychází z velké přední kotoučové brzdy s průměrem 292 a zadní kotoučové brzdy s průměrem 230.
+    rozmery: 2 015 x 660 x 970 mm
+    typ_motoru: jednoválec, kapalinou chlazený, 4taktní, SOHC, 4ventilový
+    objem: 124
+    zdvih: 52.0 x 58.6
+    komprese: 11.2 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 6rychlostní
+    vykon: 11.0 kW (15.0PS) @ 9 000 rpm
+    tocivy_moment: 12.24 Nm (1.25 kg-m) @ 8 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: vícelamelová s vinutými pružinami
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (monokros)
+    zdvih_pruziny_vpredu: 130
+    zdvih_pruziny_vzadu: 125
+    brzda_vpredu: Jednoduchá kotoučová, Ø 292 mm
+    brzda_vzadu: jednokotoučová, Ø 230 mm
+    svetla_vyska_bez_zateze: 155
+    vyska_sedadla_bez_zateze: 818
+    objem_nadrze: 13.8
+    hmotnost: 138
+    pneu_predek: 130/70-17 M/C
+    pneu_zadek: 100/80-17 M/C
+    photos: [motorcycle]
+
+  -
+    name: MT-01
+    description_short: Zátah lokomotivy
+    price: 322990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      MT-01 nabízí masivní dvouválcový vzduchem chlazený vidlicový motor špičkové technologie o objemu 1670 ccm v minimalistickém hliníkovém sportovním rámu – motocyklová revoluce. Je to stroj s masivním točivým momentem, který ale doslova řeže zatáčky.
+      „Torque sports“ kategorie: masivní motor zasazený v hbitém rámu, se zvukem výfuku vyvolávajícím extázi a dechberoucím stylem, který dokáže zastavit okolní dopravu.
+      Opravdu neexistuje žádný jiný stroj jako MT-01, nabízející mohutný motor se zrychlením, které Vás doslova vystřelí kdykoliv budete chtít. Když spojíte tento motor s kvalitním odpružením a brzdami, získáte motocykl oplývající pocitem síly, potěšení a bezpečnosti.
+    rozmery: 2 185 x 800 x 1 105 mm
+    typ_motoru: Vzduchem chlazený, 4taktní, 4ventilový, Dvouválec s uspořádáním válců do V, OHV
+    objem: 1670
+    zdvih: 97.0 x 113.0
+    komprese: 8.4 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 66.3 kW (90PS) @ 4 750 rpm
+    tocivy_moment: 150.3 Nm (15.5 kg-m) @ 3 750 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Upside-down telescopic fork
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 120
+    zdvih_pruziny_vzadu: 117
+    brzda_vpredu: Dvojitá kotoučová, Ø 310 mm
+    brzda_vzadu: jednokotoučová, Ø 267 mm
+    svetla_vyska_bez_zateze: 145
+    vyska_sedadla_bez_zateze: 825
+    objem_nadrze: 15
+    hmotnost: 265
+    pneu_predek: 190/50 ZR17 M/C (73W)
+    pneu_zadek: 120/70 ZR17 M/C (58W)
+    photos: [motorcycle]
+
+  -
+    name: MT-03
+    description_short: Radost z extrémní hbitosti a špičkového točivého momentu
+    price: 189990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      MT-03 je vybaven lehkým kompaktním motorem se vstřikováním paliva, s výborným výkonem pro okamžitý zátah a podvozkem s krátkým rozvorem a nízkým těžištěm, který zaručuje výjimečnou ovladatelnost a trakci na každém druhu povrchu.
+      Je to motocykl, který přichází s Kodo již ve standartu - japonským výrazem pro „rytmus duše“, ztělesňující zvuk a pulzování velkého jednoválce MT-03 v akci.
+      Ve městě je nekompromisní MT-03 jedním z nejrychlejších a nejpříjemnějších způsobů, jak se dostat z bodu A do bodu B. A na točitých venkovských silnicích vtěsná tento extrémně hbitý stroj s neuvěřitelným točivým momentem do jednoho kilometru více vzrušení než jakýkoli jiný stroj.
+    rozmery: 2 070 x 860 x 1 115 mm
+    typ_motoru: jednoválec, kapalinou chlazený, 4taktní, SOHC, 4ventilový
+    objem: 660
+    zdvih: 100.0 x 84.0
+    komprese: 10.0 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 35.3 kW (48PS) @ 6 250 rpm
+    tocivy_moment: 56.2 Nm (5.73 kg-m) @ 5 500 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 130
+    zdvih_pruziny_vzadu: 120
+    brzda_vpredu: Hydraulická dvojitá, Ø 298 mm
+    brzda_vzadu: jednokotoučová, Ø 245 mm
+    svetla_vyska_bez_zateze: 200
+    vyska_sedadla_bez_zateze: 805
+    objem_nadrze: 15
+    hmotnost: 192.4
+    pneu_predek: 160/60-17
+    pneu_zadek: 120/70-17
+    photos: [motorcycle]
+
+  -
+    name: FJR 1300A
+    description_short: Až za obzor
+    price: 409990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Až za obzor
+      Hledáte-li čistě sportovně-cestovní motocykl, který Vám nabídne nejvyšší úroveň pohodlí při delších cestách spolu se skutečně strhujícím výkonem motoru a vytříbenými jízdními vlastnostmi, pak je tu právě pro Vás FJR1300A
+      Ať už jedete po dálnici nebo se proháníte alpskými průsmyky, tento všestranný výkonný cestovně-sportovní motocykl je neustále ve svém živlu. Čtyřválec o objemu 1 298 ccm se sametově hebkým průběhem výkonu, vybavený kardanovou hřídelí nenáročnou na údržbu, umožňuje snadnou jízdu.
+      Díky nastavitelnému čelnímu sklu, řidítkům, sedlu, vyhřívaným rukojetím a 25l nádrži je FJR1300A připraven překonat obrovské vzdálenosti v luxusním a sportovním stylu.
+    rozmery: 2 230 x 750 x 1 450 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, paralelní čtyřválec s náklonem dopředu
+    objem: 1298
+    zdvih: 79.0 x 66.2
+    komprese: 10.8 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 105.5 kW (143.4PS) @ 8 000 rpm
+    tocivy_moment: 134.4 Nm (13.7 kg-m) @ 7 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Teleskopické vidlice, Ø 48 mm
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 135
+    zdvih_pruziny_vzadu: 125
+    brzda_vpredu: Hydraulická dvojitá, Ø 320 mm
+    brzda_vzadu: jednokotoučová, Ø 282 mm
+    svetla_vyska_bez_zateze: 130
+    vyska_sedadla_bez_zateze: 805
+    objem_nadrze: 25itry
+    hmotnost: 291
+    pneu_predek: 180/55 ZR17M/C (73W)
+    pneu_zadek: 120/70 ZR17M/C (58W)
+    photos: [motorcycle]
+
+  -
+    name: V-Max
+    description_short: Svalnatý a agresivní král silnic
+    price: 549990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description:
+    rozmery: 2 mm 395 x 820 x 1 190
+    typ_motoru: Čtyřválec s uspořádáním válců do V, kapalinou chlazený, 4taktní, DOHC, 4ventilový
+    objem: 1679
+    zdvih: 90.0 x 66.0
+    komprese: 11.3 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 147.2 kW (200PS) @ 9 000 rpm
+    tocivy_moment: 166.8 Nm (17.0 kg-m) @ 6 500 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová s membránovými pružinami
+    predni_tlumice: Teleskopické vidlice, Ø 52 mm
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 120
+    zdvih_pruziny_vzadu: 110
+    brzda_vpredu: Hydraulická kotoučová, Ø 320 mm
+    brzda_vzadu: jednokotoučová, Ø 298 mm
+    svetla_vyska_bez_zateze: 140
+    vyska_sedadla_bez_zateze: 775
+    objem_nadrze: 15.0
+    hmotnost: 310
+    pneu_predek: 200/50 R18M/C (76V)
+    pneu_zadek: 120/70 R18M/C (59V)
+    photos: [motorcycle]
+
+  -
+    name: WR125R
+    description_short: Vládce ulic i terénu
+    price: 89990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Ať už si brázdit po polních cestách nebo vyrazit na silnici, WR125R Vám k tomu poskytne vše potřebné - design dospělého motocyklu s motorem o objemu 125 ccm s agresivním off-roadovým stylem společnosti Yamaha.
+      Pro okamžitou dostupnost výkonu používá WR125R vysokootáčkový kapalinou chlazený čtyřtaktní jednoválec SOHC se 4 ventily a vstřikováním paliva a pro zajištění působivých jízdních vlastností v terénu jsou jeho kola, 21 vpředu a 18palcové vzadu, obuta do univerzálních pneumatik.
+      Přední kotouč s průměrem 240 a zadní kotouč s průměrem 220 poskytují kvalitní brzdný účinek a dokonalou zpětnou vazbu, zatímco vzájemné rozmístění 930 vysokého sedla, řidítek a stupaček Vám umožní při jízdě stát a zlepší tak ovládání při jízdě v terénu.
+    rozmery: 2 180 x 835 x  1 220 mm
+    typ_motoru: kapalinou chlazený, 4taktní, 4ventilový, SOHC, jednoválec s náklonem dopředu
+    objem: 12.7cc
+    zdvih: 52.0 x 58.6
+    komprese: 11.2 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 6rychlostní
+    vykon: 11 kW (15PS) @ 9 000 rpm
+    tocivy_moment: 12.2 Nm (1.24 kg-m) @ 8 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: vícelamelová s vinutými pružinami, mokrá
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 240
+    zdvih_pruziny_vzadu: 230
+    brzda_vpredu: Kotoučová, Ø 240 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 265
+    vyska_sedadla_bez_zateze: 930
+    objem_nadrze: 8.5
+    hmotnost: 133
+    pneu_predek: 110/80-18 M/C 58P (tube type)
+    pneu_zadek: 80/90-21 M/C 48P (tube type)
+    photos: [motorcycle]
+
+  -
+    name: WR125X
+    description_short: Do města s přehledem
+    price: 104990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Nasedněte na WR125X a Váš první vjem bude úžas z radikálního designu. Snadno byste si ho díky jeho dospělému designu ve stylu supermotard mohli splést se strojem vyšší kubatury.
+      Ale zde překvapení nekončí. Nastartujte a ucítíte působivou reakci kapalinou chlazeného čtyřtaktního jednoválce SOHC se čtyřmi ventily a systémem vstřikování paliva, jehož síla ve vysokých otáčkách Vás protáhne ulicemi města i polními cestami.
+      41 přední vidlice a zadní odpružení Motocross jsou doplněny masivní zadní sportovní pneumatikou o šířce 140. A 17-ti palcová přední a zadní kola společně s kotoučovými brzdami 298 vpředu a 220 vzadu poskytují výborný brzdný účinek.
+    rozmery: 2 180 x 835 x  1 220 mm
+    typ_motoru: kapalinou chlazený, 4taktní, 4ventilový, SOHC, jednoválec s náklonem dopředu
+    objem: 12.7cc
+    zdvih: 52.0 x 58.6
+    komprese: 11.2 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 6rychlostní
+    vykon: 11 kW (15PS) @ 9 000 rpm
+    tocivy_moment: 12.2 Nm (1.24 kg-m) @ 8 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: vícelamelová s vinutými pružinami, mokrá
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 210
+    zdvih_pruziny_vzadu: 230
+    brzda_vpredu: Hydraulická kotoučová, Ø 298 mm
+    brzda_vzadu:  Hydraulická jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 255
+    vyska_sedadla_bez_zateze: 875
+    objem_nadrze: 8.5itry
+    hmotnost: 137
+    pneu_predek: 140/70-17 M/C 66H
+    pneu_zadek: 110/70-17 M/C 54H
+    photos: [motorcycle]
+
+  -
+    name: YBR 125
+    description_short: S ním je dokonce i dopravní špička zábavou.
+    price: 64990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      YBR125 je motocykl s výkonem, který váz doveze tam, kam chcete. Tento energický čtyřtakt, který je nedočkavý vás potěšit, vás s radostí prožene ulicemi města díky plynulému vstřikování paliva a pětirychlostní převodovce. Modernizovaná verze pro rok 2010 se nyní vyznačuje vylepšeným přístrojovým panelem.novým designem tlumiče výfuku, doplňkovými madly pro pasažéra a novými postranními kryty nádrže z důvodu ochrany.
+      Model YBR125 těží z lehkého rámu. Nabízí Vám snadné ovládání a účinné odpružení pro bezstarostnou jízdu. Přední kotoučová a zadní bubnová brzda se postarají o bezpečné brzdění a prostorné dvoumístné sedlo zaručuje pohodlí.
+      Model YBR125, sestrojený pro bezstarostný výkon a spolehlivost, vás nenechá na pospas.
+    rozmery: 1 985 x 745 x 1 080 mm
+    typ_motoru: 4taktní, SOHC, Vzduchem chlazený, jednoválec s náklonem dopředu, 2 ventilový
+    objem: 124
+    zdvih: 54.0 x 54.0
+    komprese: 10.0 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 7.5 kW (10PS) @ 7 800 rpm
+    tocivy_moment: 9.6 Nm (0.98 kg-m) @ 6 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Vzduchem
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 120
+    zdvih_pruziny_vzadu: 105
+    brzda_vpredu: kotoučová, Ø 245 mm
+    brzda_vzadu: bubnová, Ø 130 mm
+    svetla_vyska_bez_zateze: 160
+    vyska_sedadla_bez_zateze: 780
+    objem_nadrze: 13.0
+    hmotnost: 125
+    pneu_predek: 90/90-18 M/C 57P
+    pneu_zadek: 2.75-18 42P
+    photos: [motorcycle]
+
+  -
+    name: YBR 125 Custom
+    description_short: Snadná jízda, které je těžké odolat.
+    price: 67990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Kombinací pohodového designu a drsné, spolehlivé techniky YBR125 vznikl motocykl s nezaměnitelným vzhledem amerického cruiseru. Výrazná 12litrová kapkovitá palivová nádrž dodává YBR125 Custom jeho ústřední bod, doplněný hlubokými prodlouženými blatníky, které podtrhují vzhled velkého motocyklu.
+      YBR125 Custom - královské pohodlí Vysoká řidítka a nízko umístěné pohodlné sedlo pro pohodlnou jízdu. Vychutnejte si vylepšenou ovládatelnost a manévrovatelnost při nízkých rychlostech.
+      Tlumič výfuku a nízké emise splňující normu Euro 3 činí z tohoto stroje jeden z nejtišších a nejčistších strojů své třídy. Zvídavé pohledy se budou otáčet za jeho stylovým chromovým designem klasického cruiseru.
+    rozmery: 2 055 x 845 x 1 125 mm
+    typ_motoru: 4taktní, SOHC, Vzduchem chlazený, jednoválec s náklonem dopředu, 2 ventilový
+    objem: 124
+    zdvih: 54.0 x 54.0
+    komprese: 10.0 : 1
+    starter: Elektrický a nožní
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 7.5 kW (10PS) @ 7 800 rpm
+    tocivy_moment: 9.6 Nm (0.98 kg-m) @ 6 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Vzduchem
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 110
+    zdvih_pruziny_vzadu: 105
+    brzda_vpredu: kotoučová, Ø 245 mm
+    brzda_vzadu: bubnová, Ø 130 mm
+    svetla_vyska_bez_zateze: 140
+    vyska_sedadla_bez_zateze: 760
+    objem_nadrze: 12.0
+    hmotnost: 129
+    pneu_predek: 3.50-16 58P
+    pneu_zadek:  3.00-18 47P
+    photos: [motorcycle]
+
+  -
+    name: XT125R
+    description_short: Život je dobrodružství. A začíná tady!
+    price: 74990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Dobrodružství lze nalézt kdekoli, od divočiny po ulice měst. Abychom se ujistili, že naplno využijete výhody modelu XT125R pro všechny terény, drsný on/off road vzhled společně s jeho klíčovými vlastnosti jsou výsledkem závodních úspěchů motocyklů Yamaha - v terénu i na okruhu.
+      Tento stroj Vás odveze kamkoli a zajistí, že si svou vyjížďku užijete. Všestrannost je zajištěna díky odpružení s dlouhým zdvihem, velkou světlou výškou, dostatečným výkonem, elektrickým startérem a továrním motokrosovým stylem.
+      Tato kombinace vytváří dokonalý celek pro každodenní dojíždění do práce i víkendové projížďky. Pokud jste připraveni, pak Vás XT125R podrží.
+    rozmery: 2 110 x 800 x 1 140 mm
+    typ_motoru: jednoválec, 4taktní, SOHC, Vzduchem chlazený
+    objem: 124
+    zdvih: 54.0 x 54.0
+    komprese: 10.0 : 1
+    starter: elektrický a nožní
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 7.3 kW (10PS) @ 8 250 rpm
+    tocivy_moment: 10.1 Nm (1.0 kg-m) @ 5 500 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Vzduchem
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 170
+    zdvih_pruziny_vzadu: 190
+    brzda_vpredu: kotoučová, Ø 245 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 220
+    vyska_sedadla_bez_zateze: 860
+    objem_nadrze: 9
+    hmotnost: 120
+    pneu_predek: 120/80-18 62S
+    pneu_zadek: 90/90-21 54S
+    photos: [motorcycle]
+
+  -
+    name: XT125X
+    description_short: Houževnatý styl supermotardu do města.
+    price: 79990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      S tímto modelem XT zažijete maximum zábavy v ulicích měst, i díky technologiím odvozeným z ostrých supermotardů.
+      Vše díky výkonnému čtyřtaktnímu motoru, citlivému odpružení, závodnímu vzhledu a velkým širokým pneumatikách pro výbornou trakci. A s ostrým designem, odvozeným díky dlouholetým závodním úspěchům motocyklů značky Yamaha, je motocykl XT čistokrevným nástupcem dokonalého rodokmenu.
+      Tento stroj Vás odveze kamkoli a zajistí, že si svou vyjížďku užijete. Tak vyražte a užívejte si života společně s modelem XT125X.
+    rozmery: 2 050 x 800 x 1 100 mm
+    typ_motoru: jednoválec, 4taktní, SOHC, Vzduchem chlazený
+    objem: 124
+    zdvih: 54.0 x 54.0
+    komprese: 10.0 : 1
+    starter: elektrický a nožní
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 7.3 kW (10PS) @ 8 250 rpm
+    tocivy_moment: 10.1 Nm (1.0 kg-m) @ 5 500 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Vzduchem
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 175
+    zdvih_pruziny_vzadu: 190
+    brzda_vpredu: kotoučová, Ø 260 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 190
+    vyska_sedadla_bez_zateze: 860
+    objem_nadrze: 9
+    hmotnost: 120
+    pneu_predek: 130/70-17 62S
+    pneu_zadek: 100/80-17 52S
+    photos: [motorcycle]
+
+  -
+    name: XT1200Z Ténéré
+    description_short: Dojeďte dál!
+    price: 359990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Terénní cestování vyžaduje zkušenost, odvahu a výdrž - stejně jako víru ve svůj stroj. Víru, že bude milovat kamenité brody a prašné cesty tak jako Vy. Víru, že bude pohodlný na dlouhých cestách. Víru, že má vše, co potřebuje na vykrajování prudkých horských serpentýn.
+      Super Ténéré je od základu stavěný tak, aby to byl nejlepší terénní stroj nové generace. Spojuje v sobě zkušenosti Yamahy s dakarskou rallye se snadným ovládáním a pokročilou technologií pomoci s řízením.
+      V roce 2011 bude Super Ténéré k dostání v neodolatelné černé a bílé barvě.
+    rozmery: 2 255 x 980 x 1 410 mm
+    typ_motoru: paralelní dvouválec s náklonem dopředu, Motor s dvojitým zážehem, Vstřikování paliva, kapalinou chlazený, 4taktní, DOHC, 4ventilový
+    objem: 1199
+    zdvih: 98 x 79.5
+    komprese: 11.0 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 6rychlostní
+    vykon: 80.9 kW (110PS) @ 7 250 rpm
+    tocivy_moment: 114.1 Nm (11.6 kg-m) @ 6 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Upside-down telescopic fork, Ø 43 mm trubka, nastavitelné předtížení, komprese a tlumení odskoků
+    zadni_odpruzeni: Monoshock, Nastavitelné předtížení a tlumení odskoků
+    zdvih_pruziny_vpredu: 190
+    zdvih_pruziny_vzadu: 190
+    brzda_vpredu: Hydraulická s dvojitým kotoučem, Ø 310 mm kotouče s vlnitým profilem
+    brzda_vzadu: Hydraulická jednokotoučová, Ø 282 mm kotouč s vlnitým profilem
+    svetla_vyska_bez_zateze: 205
+    vyska_sedadla_bez_zateze: 845-870
+    objem_nadrze: 23
+    hmotnost: 261
+    pneu_predek: 150/70R17M/C 69V
+    pneu_zadek: 110/80R19M/C 59V
+    photos: [motorcycle]
+
+  -
+    name: XT 660R
+    description_short: Dobrodružství je hned za rohem
+    price: 154990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Ať už je Vaše dobrodružství jakékoli, svému XT660R můžete důvěřovat. Tento houževnatý, moderní, všestranný stroj Vám umožní vydat se na dobrodružství z betonové džungle na polní cesty a lesní pěšiny. A jeho nové grafické provedení Vám zajistí, že se za Vámi lidé budou vždy otáčet.
+      Vysoký, lehký a štíhlý model XT660R s jednoválcovým motorem o objemu 660 ccm se vstřikováním paliva je sestrojen pro objevování toho nejdrsnějšího terénu a poradit si s jakoukoli situací. Je členem legendární řady XT, se kterou si vychutnáte dlouhé i krátké projížďky - od nezapomenutelných výletů za dobrodružstvím po každodenní dojíždění do práce.
+      Ať žijete ve městě nebo cestujete napříč kontinenty, XT660R je pro Vás ten pravý společník.
+    rozmery: 2 240 x 845 x 1 230 mm
+    typ_motoru: jednoválec, kapalinou chlazený, 4taktní, SOHC, 4ventilový
+    objem: 660
+    zdvih: 100.0 x 84.0
+    komprese: 10.0 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 35.3 kW (48PS) @ 6 000 rpm
+    tocivy_moment: 60.0 Nm (6.4 kg-m) @ 5 250 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (monokros)
+    zdvih_pruziny_vpredu: 225
+    zdvih_pruziny_vzadu: 200
+    brzda_vpredu: Jednoduchá kotoučová, Ø 298 mm
+    brzda_vzadu: jednokotoučová, Ø 245 mm
+    svetla_vyska_bez_zateze: 210
+    vyska_sedadla_bez_zateze: 875
+    objem_nadrze: 15
+    hmotnost: 181
+    pneu_predek: 130/80-17 M/C
+    pneu_zadek: 90/90-21 M/C
+    photos: [motorcycle]
+
+  -
+    name: XT660Z Ténéré
+    description_short: Následuj svou fantazii
+    price: 189990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Připravte se na dobrodružství s XT660Z Ténéré – odolným, funním a stylovým víceúčelovým motocyklem. Doveze Vás kamkoli si budete přát – od evropských silnic a dálnic, až po prašné a kamenité cesty uprostřed Afriky.
+      Srdcem tohoto odolného terénního objevitele je kapalinou chlazený, čtyřtaktní jednoválec SOHC se čtyřmi ventily s výkonem v celém rozsahu otáček, který Vám pomůže zvládnout každou situaci.
+      Zatímco nádrž o obsahu 23 litrů poskytuje dobrý dojezd, za novým vzhledem pro rok 2011 se každý otočí. Pohodlné dvousedlo, vítr rozrážející přední kapotáž a vysoké sklo učiní delší cesty pohodlnými.
+    rozmery: 2 246 x 865 x 1 477 mm
+    typ_motoru: jednoválec, kapalinou chlazený, 4taktní, SOHC, 4ventilový
+    objem: 660
+    zdvih: 100.0 x 84.0
+    komprese: 10.0 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 35.3 kW (48PS) @ 6 000 rpm
+    tocivy_moment: 60.0 Nm (6.4 kg-m) @ 5 250 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (monokros)
+    zdvih_pruziny_vpredu: 210
+    zdvih_pruziny_vzadu: 200
+    brzda_vpredu: Dvojitá kotoučová, Ø 298 mm
+    brzda_vzadu: jednokotoučová, Ø 245 mm
+    svetla_vyska_bez_zateze: 260
+    vyska_sedadla_bez_zateze: 895
+    objem_nadrze: 23.0
+    hmotnost: 206
+    pneu_predek: 130/80-17 M/C
+    pneu_zadek: 90/90-21 M/C
+    photos: [motorcycle]
+
+  -
+    name: XV1900A Midnight Star
+    description_short: Monument na 2 kolech
+    price: 399990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Nasedněte na stylový motocykl, navržený s odkazem na historii klasických cruiserů, který je napěchovaný kroutícím momentem, skvělým ovládáním a pohodlím.
+      Radikální modernizovaný design, silná litá kola a jiskřivý design motoru - model XV1900A má úžasný vzhled, za kterým se budou všichni otáčet.
+      Ale nejedná se o žádné vítězství formy nad funností. Naše filozofie „Art of Engineering“ vyžaduje krásu a prvotřídní výkonnost v naprosté rovnováze a vzduchem chlazený čtyřtaktní vidlicový dvouválec se 4 ventily, kombinovaný se spoustou dalších technických vymožeností znamená, že se Vám dostane obojího.
+    rozmery: 2 580 x 1 095 x 1 125 mm
+    typ_motoru: Vzduchem chlazený, 4taktní, 4ventilový, Dvouválec s uspořádáním válců do V, OHV
+    objem: 1854
+    zdvih: 100.0 x 118.0
+    komprese: 9.48 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 66.4 kW (90.3PS) @ 4 750 rpm
+    tocivy_moment: 155.1 Nm (15.8 kg-m) @ 2 500 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Vzduchem
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Teleskopické vidlice, Ø 46 mm
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 130
+    zdvih_pruziny_vzadu: 152
+    brzda_vpredu: Hydraulická s dvojitým kotoučem, Ø 298 mm
+    brzda_vzadu: jednokotoučová, Ø 320 mm
+    svetla_vyska_bez_zateze: 155
+    vyska_sedadla_bez_zateze: 705
+    objem_nadrze: 16
+    hmotnost: 347
+    pneu_predek: 190/60R17M/C 78H
+    pneu_zadek: 130/70R18M/C 63H
+    photos: [motorcycle]
+
+  -
+    name: XVS1300A Midnight Star
+    description_short: Klidný cruiser s velkým srdcem
+    price: 289990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Naskočte na XVS1300A Midnight Star a brzy uvidíte, že tento uvolněný styl cruiseru nemusí znamenat průměrný výkon. Jeho motor se vyznačuje kovanými písty, čtyřventilovými hlavami a ojnicemi s krátkým zdvihem, takže pokaždé, když přidáte plyn, ucítíte zátah. Nával energie, který se změní v seriózní výkon.
+      Dvojité vyvažovače odstraní nechtěné vibrace, které mohou znepříjemnit dlouhé cesty, ale pocit výkonného stroje nezmizí. A inteligentní jednotný brzdný systém nabízí nezávislé či kombinované brzdění a poskytuje Vám tak absolutní kontrolu nad motocyklem.
+      Aerodynamický vzhled štíhlého nízkého modelu XVS1300A - klasika inspirovaná vzhledem 30. let 20. století ozdobená moderními prvky.
+    rozmery: 2 490 x 995 x 1 145 mm
+    typ_motoru: kapalinou chlazený, 4taktní, 4ventilový, Dvouválec s uspořádáním válců do V, OHC
+    objem: 1304
+    zdvih: 100.0 x 83.0
+    komprese: 9.5 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 53.5 kW (73.0PS) @ 5 500 rpm
+    tocivy_moment: 106.0 Nm (10.8 kg-m) @ 4 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Teleskopické vidlice, Ø 41 mm
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 135
+    zdvih_pruziny_vzadu: 110
+    brzda_vpredu: Hydraulická s dvojitým kotoučem, Ø 298 mm
+    brzda_vzadu: jednokotoučová, Ø 298 mm
+    svetla_vyska_bez_zateze: 145
+    vyska_sedadla_bez_zateze: 690
+    objem_nadrze: 19.0
+    hmotnost: 304
+    pneu_predek: 170/70B-16M/C 75H
+    pneu_zadek: 130/90-16M/C 67H
+    photos: [motorcycle]
+
+  -
+    name: XVS950A Midnight Star
+    description_short: Velký stylový cruiser ve snadno ovladatelném balení.
+    price: 249990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Ať jste ve třídě velkých cruiserů nováčkem nebo je řídíte již léta, je těžké nebýt dojatý modelem XVS950A Midnight Star.
+      Důvodem okouzlení může být nízká, pohodlná jízdní poloha, nebo klasické vibrace vidlicového dvouválce o objemu 942 ccm. Může to být nízká hmotnost a snadné ovládání, nebo klasický vzhled cruiseru - obojí je podpořeno dlouhým nízkým podvozkem a moderními technickými vychytávkami. Ať je to cokoli, XVS950A Vás donutí vyrazit na otevřenou silnici.
+      Tak nasedněte, opřete se, nastartujte a získáte ryzí, prostou radost z jízdy na cruiseru. Vždyť to je to, proč byl tento motocykl sestrojen.
+    rozmery: 2 435 x 1 000 x 1 080 mm
+    typ_motoru: Vzduchem chlazený, 4taktní, SOHC, 4ventilový, Dvouválec s uspořádáním válců do V
+    objem: 942
+    zdvih: 85.0 x 83.0
+    komprese: 9.0 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 5rychlostní
+    vykon: 39.4 kW (54PS) @ 6 000 rpm
+    tocivy_moment: 76.8 Nm (7.84 kg-m) @ 3 000 rpm
+    karburator: Vstřikování paliva
+    chlazeni: Vzduchem
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Teleskopické vidlice, Ø 41 mm
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 135
+    zdvih_pruziny_vzadu: 110
+    brzda_vpredu: Kotoučová, Ø 320 mm
+    brzda_vzadu: jednokotoučová, Ø 298 mm
+    svetla_vyska_bez_zateze: 145
+    vyska_sedadla_bez_zateze: 675
+    objem_nadrze: 17.0
+    hmotnost: 278
+    pneu_predek: 170/70B16/C 75H
+    pneu_zadek: 130/70-18M/C 63H
+    photos: [motorcycle]
+
+  -
+    name: YZ 450F
+    description_short: Revoluční stroj sestrojený k dokonalému průjezdu zatáček
+    price: 179990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Závody se vyhrávají a prohrávají, především v prudkých obratech a zatáčkách. Proto byla YZ450F navržena pro ještě lepší obratnost než kdy předtím - můžete s ní zatáčet dříve, reaguje rychleji a umožní Vám jet déle na plný plyn.
+      YZ450F používá revoluční kapalinou chlazený čtyřtaktní dozadu skloněný jednoválec DOHC se vstřikováním paliva, paprskový oboustranný hliníkový rám s prvky umístěnými tak, aby bylo dosaženo perfektní centralizace hmoty a bezkonkurenční ovladatelnosti.
+      Vysoce výkonný systém odpružení s velkým zdvihem umožňuje plynulejší zdolávání nerovností a udržuje neustálý kontakt s povrchem terénu. Sedlo je díky novým materiálům pohodlnější a zlatý řetěz skvělě doplňuje design motocyklu. YZ450F je tou největší výhodou, kterou lze terénnímu závodníkovi poskytnout. Zbytek už je na Vás.
+    rozmery: 2 191 x 825 x 1 311 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, 4ventilový, jednoválec s náklonem dozadu
+    objem: 44.7cc
+    zdvih: 97.0 x 60.8
+    komprese: 12.5 : 1
+    starter: nožní
+    prevodovka: stálý záběr, 5rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Upside-down, Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 310
+    zdvih_pruziny_vzadu: 310
+    brzda_vpredu: Hydraulická kotoučová, Ø 250 mm
+    brzda_vzadu: Hydraulická jednokotoučová, Ø 245 mm
+    svetla_vyska_bez_zateze: 383
+    vyska_sedadla_bez_zateze: 999
+    objem_nadrze: 6.2
+    hmotnost: 111
+    pneu_predek: 110/90-19 62M
+    pneu_zadek: 80/100-21-51M
+    photos: [motorcycle]
+
+  -
+    name: YZ 250F
+    description_short: Dokonalý průjezd zatáček
+    price: 189990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      V motokrosových závodech se o vítězi a poraženém rozhoduje v zatáčkách. Proto byla YZ250F navržena s důrazem na výjimečné jízdní chování při zatáčení.
+      Ke známým prvkům modelu ovlivňujícím chování v zatáčkách – pevný odlehčený hliníkový rám a vynikající výkon v celém spektru otáček pro lepší jízdu – se navíc připojuje lepší výkon při středních a vysokých otáčkách. Je to možné díky řadě vylepšení, mezi které patří přepracovaný karburátor, lehčí systém ventilů a nové přední vidlice, které jsou o 150 % odolnější proti zkroucení a poskytují ještě lepší pocit z jízdy.
+      A díky citlivému odpružení motocyklu zvládnete s naprostou lehkostí jakékoli nerovnosti. V každém ohledu nechává YZ250F svou konkurenci za sebou.
+    rozmery: 2 mm 163 x 825 x 1 306
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, 5ventilový, jednoválec s náklonem dopředu
+    objem: 250
+    zdvih: 77.0 x 53.6
+    komprese: 13.5 : 1
+    starter: nožní
+    prevodovka: stálý záběr, 5rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Keihin FCR-MX37/1
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Upside-down, Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 300
+    zdvih_pruziny_vzadu: 312
+    brzda_vpredu: Hydraulická kotoučová, Ø 250 mm
+    brzda_vzadu: Hydraulická jednokotoučová, Ø 245 mm
+    svetla_vyska_bez_zateze: 378
+    vyska_sedadla_bez_zateze: 992
+    objem_nadrze: 6.4
+    hmotnost: 103
+    pneu_predek: 100/90-19 57M
+    pneu_zadek: 80/100-21-51M
+    photos: [motorcycle]
+
+  -
+    name: YZ 250
+    description_short: Opravdový originál.
+    price: 189990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      S původním dvoutaktním YZ250S vyhrála společnost Yamaha v roce 1973 své první Mistrovství světa v motokrosu. Dnes je YZ250 vybaven lehkým motorem, který nabízí vysokootáčkový výkon a stále zůstává dvoutaktním závodním motocyklem.
+      Jeho hliníkový podvozek nabízí nové lehké ráfky kol, které snižují neodpruženou hmotnost pro zlepšení ovladatelnosti a výkonu odpružení. Nová grafika speedblock dodává vzhled továrního motocyklu, zatímco nová konstrukce sedla zajistí soulad mezi gripem a pohyblivostí jezdce.
+      Nejnovější YZ250 s dvoutaktním motorem, vynikající obratností a nízkou hmotností je sestrojena tak, aby přinášela jedinečné a vzrušující jezdecké zážitky.
+    rozmery: 2 184 x 827 x 1 309 mm
+    typ_motoru: kapalinou chlazený, 2ventilový, jednoválec s náklonem dopředu, jazýčkový ventil s YPVS
+    objem: 249
+    zdvih: 66.4 x 72.0
+    komprese: 8.9 ~ 10.6 : 1
+    starter: nožní
+    prevodovka: stálý záběr, 5rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Keihin PWK38S/1
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Upside-down, Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 300
+    zdvih_pruziny_vzadu: 315
+    brzda_vpredu: Hydraulická kotoučová, Ø 250 mm
+    brzda_vzadu: Hydraulická jednokotoučová, Ø 245 mm
+    svetla_vyska_bez_zateze: 385
+    vyska_sedadla_bez_zateze: 997
+    objem_nadrze: 8.0
+    hmotnost: 103
+    pneu_predek: 110/90-19 62M
+    pneu_zadek: 80/100-21 51M
+    photos: [motorcycle]
+
+  -
+    name: WR 450F
+    description_short: Skutečný závodník.
+    price: 239990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Terénní motorky nepřicházejí s ničím odolnějším, než jsou Yamaha enduro modely WR. A jak byste očekávali od stroje, který sdílí DNA s našimi vítěznými modely YZ pro MXGP, WR450F těží z nejmodernější technologie motorů a podvozků ve světě enduro.
+      Srdcem WR450F je robustní vysoce výkonný čtyřtaktní motor. Je vybaven pěti titanovými ventily a chrlí masivní dávky výkonu v nízkém až středním otáčkovém pásmu, což Vám v kategorii Cross country zajistí výjimečné výkony.
+      Hliníkový podvozek, osvědčený v GP, je zkonstruován pro ten nejdrsnější terén, přičemž nabízí působivé ovládání a hbitost, která mu zajišťuje vedoucí pozici ve své třídě.
+    rozmery: 2 200 x 825 x 1 305 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, 5ventilový, jednoválec s náklonem dopředu
+    objem: 449
+    zdvih: 95.0 x 63.4
+    komprese: 12.3 : 1
+    starter: elektrický a nožní
+    prevodovka: stálý záběr, 5rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Keihin FCR-MX37/1
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Upside-down, Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 300
+    zdvih_pruziny_vzadu: 305
+    brzda_vpredu: Kotoučová, Ø 240 mm
+    brzda_vzadu: Hydraulická jednokotoučová, Ø 245 mm
+    svetla_vyska_bez_zateze: 373
+    vyska_sedadla_bez_zateze: 990
+    objem_nadrze: 8
+    hmotnost: 123.3
+    pneu_predek: 130/90-18 69R
+    pneu_zadek: 90/90-21 54R
+    photos: [motorcycle]
+
+  -
+    name: WR 250F
+    description_short: Konstruktérské umění závodních technologií
+    price: 234990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      S řadou vítězství ze světových šampionátů je dnes WR250F jedním z nejuznávanějších motocyklů řady Enduro. Ať už jste amatér, profesionál, závodník nebo klubový jezdec, tento stroj Vám umožní objevit Váš skutečný potenciál pro terénní jízdu.
+      Vítězná kombinace pětiventilového čtyřtaktu DOHC, který podává skvělý výkon ve vysokých otáčkách a odlehčeného hliníkového rámu může všem konkurovat a vítězit téměř v každém terénu.
+      Speciálně vyvinutý enduro náhon a zavěšení kol Vám dávají nekompromisní nadvládu nad tímto strojem. V lese je tento famózní motocykl hbitý jako málo kdo a na rovných úsecích zaručeně rychlý a spolehlivý.
+    rozmery: 2190 x 825 x 1 305 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, 5ventilový, jednoválec s náklonem dopředu
+    objem: 250
+    zdvih: 77.0 x 53.6
+    komprese: 12.5 : 1
+    starter: elektrický a nožní
+    prevodovka: stálý záběr, 5rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Keihin FCR-MX37/1
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Upside-down, Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 300
+    zdvih_pruziny_vzadu: 310
+    brzda_vpredu: Kotoučová, Ø 250 mm
+    brzda_vzadu: Hydraulická jednokotoučová, Ø 245 mm
+    svetla_vyska_bez_zateze: 375
+    vyska_sedadla_bez_zateze: 990
+    objem_nadrze: 8
+    hmotnost: 118
+    pneu_predek: 130/90-18 69R
+    pneu_zadek: 90/90-21 54R
+    photos: [motorcycle]
+
+  -
+    name: YZ 125
+    description_short: Lehký závodní stroj.
+    price: 165990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      YZ125 miluje jízdu na doraz. Ať závodíte nebo jedete jen na projížďku, jeho nastavení řízení a extrémně nízká hmotnost Vám umožní zvolit tu nejtěsnější stopu při průjezdu zatáčkou. Jakmile se jednou naučíte, jak dostat z šestistupňové převodovky co nejvíce, budete ohromeni, jak rychle může tato stopětadvacítka jet.
+      Její legendární lehkost přichází ve spojení s novým sedlem umožňující větší jezdeckou obratnost a dále řetězem ve zlaté barvě. A jako všechny nejnovější off-roadové motocykly Yamaha, je YZ125 vybaven naši výraznou novou grafikou speedblock.
+      Tento lehký závodník s dvoutaktním motorem a vynikající obratností je sestaven tak, aby přinášel nekončící požitek z jízdy.
+    rozmery: 2 mm 139 x 827 x 1 318
+    typ_motoru: kapalinou chlazený, 2ventilový, jednoválec s náklonem dopředu, Jazýčkový ventil, jazýčkový ventil s YPVS
+    objem: 124
+    zdvih: 54.0 x 54.5
+    komprese: 8.6 ~10.7 : 1
+    starter: nožní
+    prevodovka: stálý záběr, 6rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Mikuni TMX38
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Upside-down, Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 300
+    zdvih_pruziny_vzadu: 315
+    brzda_vpredu: Kotoučová, Ø 250 mm
+    brzda_vzadu: Hydraulická jednokotoučová, Ø 245 mm
+    svetla_vyska_bez_zateze: 388
+    vyska_sedadla_bez_zateze: 998
+    objem_nadrze: 8
+    hmotnost: 94
+    pneu_predek: 100/90-19 57M
+    pneu_zadek: 80/100-21 51M
+    photos: [motorcycle]
+
+  -
+    name: YZ 85 LW
+    description_short: Lehký motokrosový závodník
+    price: 99990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Dvoutaktní YZ85 a YZ85LW s velkými koly, které jezdí s konstrukcemi podvozku a motoru špičkové technologie, jsou skvělou volbou pro budoucí profesionální jezdce. Kapalinou chlazený dvoutaktní motor o objemu 84,7 ccm, který je navržen tak, aby vyrazil s vítěznou energií do prvního kola, je jedničkou ve své třídě.
+      Jako naše velkokapacitní závodní motocykly jsou modely YZ85/LW vybaveny vidlicemi typu upside-down a kyvnou vidlicí s přepákováním pro zajištění vynikajících vlastností při ovládání a zatáčení.
+      A díky předním a zadním kotoučům o velkém průměru, lehkým hliníkovým ráfkům, osám a štíhlému provedení plastů, jsou modely YZ85/LW značky Yamaha stavěny pro vítěze.
+    rozmery: 1903 x 758 x 1 161 mm
+    typ_motoru: jednoválec, kapalinou chlazený, 2ventilový, Jazýčkový ventil
+    objem: 8.7cc
+    zdvih: 47.5 x 47.8
+    komprese: 8.2 : 1
+    starter: nožní
+    prevodovka: stálý záběr, 6rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Keihin PWK28/1
+    chlazeni: Kapalinou
+    spojka: mokrá, vícelamelová
+    predni_tlumice: Upside-down, Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 275
+    zdvih_pruziny_vzadu: 287
+    brzda_vpredu: Jednoduchá kotoučová, Ø 220 mm
+    brzda_vzadu: jednokotoučová, Ø 190 mm
+    svetla_vyska_bez_zateze: 393
+    vyska_sedadla_bez_zateze: 904
+    objem_nadrze: 5.0
+    hmotnost: 73
+    pneu_predek: 90/100-16 52M
+    pneu_zadek: 70/100-19 42M
+    photos: [motorcycle]
+
+  -
+    name: TT-R125 LW/E
+    description_short: Vyvinut k závodění, vhodný i pro motokrosové začátečníky
+    price: 89990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      S řadou vlastností vyvinutých pro závody, včetně přední kotoučové brzdy, pevného lehkého rámu a předního a zadního odpružení s vysokým zdvihem jsou TT-R125LW a TT-R125LW/E s elektrickým startérem dalším krokem navazujícím na náš středně velký TT-R110E.
+      Působivý a silný výkon, který si mladší jezdci vychutnají, vychází z jednoválcového čtyřtaktního vzduchem chlazeného motoru o objemu  123,5 ccm.
+      S předním odpružením se zdvihem 180 a zadním odpružením 168 si TT-R125LW/E hravě poradí s obtížným terénem. A jako u všech modelů TT-R od 50 ccm do 125 ccm je kvalita a spolehlivost značky Yamaha standardem.
+    rozmery: 1 885 x 795 x 1 085 mm
+    typ_motoru: Vzduchem chlazený, 4taktní, SOHC, jednoválec s náklonem dopředu, 2 ventilový
+    objem: 124
+    zdvih: 54.0 x 54.0
+    komprese: 10.0 : 1
+    starter: elektrický a nožní
+    prevodovka: stálý záběr, 5rychlostní, 4rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Mikuni VM16/1
+    chlazeni: Vzduchem
+    spojka: mokrá, vícelamelová, odstředivá automatická
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 180
+    zdvih_pruziny_vzadu: 110
+    brzda_vpredu: Hydraulická kotoučová, Ø 220 mm
+    brzda_vzadu: bubnová
+    svetla_vyska_bez_zateze: 295
+    vyska_sedadla_bez_zateze: 805
+    objem_nadrze: 6.0
+    hmotnost: 90
+    pneu_predek: 90/100-16 52M
+    pneu_zadek: 70/100-19 42M
+    photos: [motorcycle]
+
+  -
+    name: TT-R110E
+    description_short: Inspirace vítězstvím
+    price: 74990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Vedoucí řada společnosti Yamaha TT-R zahrnuje stylový TT-R110E, který je určen jak pro začínající jezdce, tak pro ty, kteří přecházejí z menšího TT-R50E.
+      Jeho radikální barva Racing Blue v motokrosovém stylu byla přímo inspirována našimi závodními motocykly YZ, vítězi v MX GP. Pro snadné řízení a vysoký stupeň jezdeckého komfortu je tato dobře vypadající dětská motorka vybavena předním a zadním odpružením s vysokým zdvihem.
+      Noví i zkušení terénní jezdci si zamilují plynulý a silný výkon čtyřtaktního motoru o objemu 110 ccm a díky 4-stupňové poloautomatické převodovce si nemusí dělat při řazení starosti s ovládáním páčky spojky.
+    rozmery: 1 565 x 680 x 923 mm
+    typ_motoru: Vzduchem chlazený, 4taktní, SOHC, jednoválec s náklonem dopředu
+    objem: 110
+    zdvih: 51.0 x 54.0
+    komprese: 9.3 : 1
+    starter: elektrický a nožní
+    prevodovka: stálý záběr, 4rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Mikuni VM16/1
+    chlazeni: Vzduchem
+    spojka: mokrá, odstředivá automatická
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (monokros)
+    zdvih_pruziny_vpredu: 110
+    zdvih_pruziny_vzadu: 110
+    brzda_vpredu: Jednoduchá kotoučová, Ø 95 mm
+    brzda_vzadu: bubnová, Ø 110 mm
+    svetla_vyska_bez_zateze: 180
+    vyska_sedadla_bez_zateze: 670
+    objem_nadrze: 3.8
+    hmotnost: 72
+    pneu_predek: 3.00-12 4PR
+    pneu_zadek: 2.50-14 4PR
+    photos: [motorcycle]
+
+  -
+    name: TT-R50E
+    description_short: Sofistikovaný výkonný čtyřtakt pro děti.
+    price: 39990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      TT-R50E značky Yamaha se jistě stala vyplněným snem všech dětí.
+      Všechno na tomto minikrosu pro pohodlnou jízdu je navrženo tak, aby přinášelo radost a příjemné zkušenosti jezdcům ve věku od 4 do 7 let. Pro maximální usnadnění ovládání je tento čtyřtakt o objemu 49,5 ccm s elektrickým startérem vybaven poloautomatickou třístupňovou převodovkou. Navíc pro zvýšení rodičovské kontroly je možné TT-R50E startovat pouze s vloženým klíčkem zapalování.
+      Stylová grafika modrých plastů byla inspirována Yamaha vítěznými MXGP motocykly. Díky odpružení s vysokým zdvihem a pneumatikám s drsným vzorkem je TT-R50E připraven přinášet hodiny zábavy celé rodině.
+    rozmery: 1 mm 305 x 595 x 775
+    typ_motoru: Vzduchem chlazený, 4taktní, SOHC, jednoválec s náklonem dopředu, 2 ventilový
+    objem: 4.5cc
+    zdvih: 36.0 x 48.6
+    komprese: 9.5 : 1
+    starter: Elektrický
+    prevodovka: stálý záběr, 3rychlostní
+    vykon:
+    tocivy_moment:
+    karburator: Mikuni VM11/1
+    chlazeni: Vzduchem
+    spojka: mokrá, odstředivá automatická
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (monokros)
+    zdvih_pruziny_vpredu: 96
+    zdvih_pruziny_vzadu: 71
+    brzda_vpredu: Jednoduchá kotoučová, Ø 80 mm
+    brzda_vzadu: bubnová, Ø 80 mm
+    svetla_vyska_bez_zateze: 135
+    vyska_sedadla_bez_zateze: 555
+    objem_nadrze: 3.1
+    hmotnost: 57
+    pneu_predek: 2.50-10 4PR
+    pneu_zadek: 2.50-10 4PR
+    photos: [motorcycle]
+
+  -
+    name: PW80
+    description_short: Rozmanitá a spolehlivá zábava.
+    price: 49990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      PW80 o objemu 79 ccm, který je poháněn dvoutaktním motorem, je jedním z nejodolnějších a nejspolehlivějších dětských fun biků. Pro snadné ovládání přichází tento dobře vypadající lehký motocykl s třístupňovou poloautomatickou převodovkou, díky které mohou začínající jezdci rozvíjet své dovednosti v oblasti řazení rychlostí, aniž by se museli obávat manipulace s páčkou spojky.
+      Díky tomu, že váží jen 61 kg a díky nízko posazenému sedlu ve výšce pouhých 635 je tento dobře vypadající minikros snadno ovladatelný. Vybaven odpružením s vysokým zdvihem a pevnými plasty v motokrosovém stylu, podává Yamaha PW80 vynikající výkon a je navržen tak, aby přinášel celé hodiny rodinné zábavy!
+    rozmery: 1 540 x 640 x 880 mm
+    typ_motoru: Vzduchem chlazený, 2ventilový, jednoválec s náklonem dopředu, Jazýčkový ventil
+    objem: 79
+    zdvih: 47.0 x 45.6
+    komprese: 6.6 : 1
+    starter: nožní
+    prevodovka: Poloautomatická
+    vykon:
+    tocivy_moment:
+    karburator: Mikuni VM15/1
+    chlazeni: Vzduchem
+    spojka: mokrá, odstředivá automatická
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice, (monokros)
+    zdvih_pruziny_vpredu: 110
+    zdvih_pruziny_vzadu: 95
+    brzda_vpredu: Jednoduchá kotoučová, Ø 95 mm
+    brzda_vzadu: bubnová, Ø 110 mm
+    svetla_vyska_bez_zateze: 185
+    vyska_sedadla_bez_zateze: 635
+    objem_nadrze: 4.9
+    hmotnost: 61
+    pneu_predek: 3.00-12 4PR
+    pneu_zadek: 2.50-14 4PR
+    photos: [motorcycle]
+
+  -
+    name: PW50
+    description_short: Tady začíná off-roadové dobrodružství.
+    price: 37990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Pokud jde o minikrosy, je Yamaha jasnou jedničkou. Díky uživatelsky přátelskému designu je snadné poznat, proč je tento dvoutakt o objemu 49 ccm tak oblíbený u dětí i jejich rodičů. Mezi vlastnosti zaručující bezpečnost, kterými je vybavena, patří např. nastavitelný plyn, umožňující rodičům omezit maximální rychlost tak, aby odpovídala jezdecké úrovni dítěte. Krytá kardanová hřídel maximálně usnadňuje údržbu. Plně automatická převodovka jeho svěžího dvoutaktní motoru o objemu 49 ccm ve snadném provedení „otoč a jeď", se postará o řazení rychlostních stupňů.
+      S váhou pouhých 39 kg je tento lehký a kompaktní minikros ideálním řešením pro Vaše dítě. Bude se bavit celé hodiny a zároveň si přitom bude rozvíjet své jezdecké dovednosti.
+    rozmery: 1 mm 245 x 575 x 715
+    typ_motoru: Vzduchem chlazený, 2ventilový, jednoválec s náklonem dopředu, Jazýčkový ventil
+    objem: 49
+    zdvih: 40.0 x 39.2
+    komprese: 6.0 : 1
+    starter: nožní
+    prevodovka: automatická
+    vykon:
+    tocivy_moment:
+    karburator: Mikuni VM12/1
+    chlazeni: Vzduchem
+    spojka: mokrá, odstředivá automatická
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 60
+    zdvih_pruziny_vzadu: 50
+    brzda_vpredu: Bubnová
+    brzda_vzadu: Bubnová
+    svetla_vyska_bez_zateze: 105
+    vyska_sedadla_bez_zateze: 485
+    objem_nadrze: 2.0
+    hmotnost: 39
+    pneu_predek: 2.50-10 4PR
+    pneu_zadek: 2.50-10 4PR
+    photos: [motorcycle]
+
+  -
+    name: TRZ50
+    description_short: První krok k sérii R.
+    price: 89990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      S designem ovlivněným supersporty řady R, není lepšího motocyklu pro start Vaší supersport kariéry, než TZR50.
+      Vychutnejte si sílu dvoutaktního motoru o objemu 50 ccm chlazeného kapalinou a hladké řazení šestistupňové převodovky. Agresivní sportovní projíždění zatáček je samozřejmostí díky sedmnáctipalcovým kolům, teleskopické přední vidlici a zadnímu tlumiči zajišťujícímu přesné ovládání typické pro supersporty. Velké kotoučové brzdy vpředu i vzadu zajišťují brzdný účinek, jaký byste očekávali u soutěžního motocyklu.
+      Pozornost věnovaná detailům je mimořádná - od lehkých slitinových kol přes sportovní výfuk po aerodynamickou kapotu se světly v designu "liščích očí" - opravdový supersport každým coulem.
+    rozmery: 2 002 x 689 x 1 105 mm
+    typ_motoru: jednoválec, kapalinou chlazený, 2ventilový
+    objem: 49
+    zdvih: 40.3 x 39.0
+    komprese: 11.5 : 1
+    starter:  Elektrický
+    prevodovka: stálý záběr, 6rychlostní
+    vykon: 2.0 kW @ 6 250 ot/min
+    tocivy_moment: 3.0 Nm @ 5 500 ot/min
+    karburator: PHBN 16
+    chlazeni: Kapalinou
+    spojka:
+    predni_tlumice: Teleskopické vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 130
+    zdvih_pruziny_vzadu: 31
+    brzda_vpredu: Hydraulická kotoučová
+    brzda_vzadu: Bubnová
+    svetla_vyska_bez_zateze: 151
+    vyska_sedadla_bez_zateze: 815
+    objem_nadrze: 14.0
+    hmotnost: 128
+    pneu_predek: 130/70-17
+    pneu_zadek: 100/80-17
+    photos: [motorcycle]
+
+  -
+    name: DT50X
+    description_short: Objevte výkon supermoto
+    price: 79990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Dynamický model Yamaha DT50X se srdcem terénního stroje a vzhledem a postojem silničního motocyklu Vás zavede přímo do adrenalinem nabitého světa supermoto.
+      Pevný rám, pružné odpružení s dlouhým zdvihem a přilnavé 17-ti palcové silniční pneumatiky vytvářejí spojení mezi Vámi, strojem DT50X a silnicí, přičemž pozvedají sebevědomí a zvyšují pohodlí. Jeho výkonný kapalinou chlazený dvoutaktní motor o objemu 50 ccm a šestirychlostní převodovka poskytují cílevědomou hnací sílu, spolu s předvídatelnou reakcí a kontrolou. Přední a zadní kotoučové brzdy poskytují skutečný brzdný výkon.
+      S vysokým rámem, silnou kapotou supermoto a digitálním přístrojovým panelem je model DT50X sestrojen pro sílu a spolehlivost – od shora až dolů.
+    rozmery: 2 000 x 850 x 1 115 mm
+    typ_motoru: jednoválec, kapalinou chlazený, 2ventilový
+    objem: 4.7cc
+    zdvih: 40.3 x 39.0
+    komprese: 12.0 : 1
+    starter: nožní
+    prevodovka: 6rychlostní, Převodovka
+    vykon: 2.1 kW @ 6 750 ot/min
+    tocivy_moment: 3.3 Nm @ 5 250 ot/min
+    karburator: PHBN 16
+    chlazeni: kapalinou
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: hydraulický tlumič
+    zdvih_pruziny_vpredu: 190
+    zdvih_pruziny_vzadu: 220
+    brzda_vpredu: Jednoduchá kotoučová, Ø 260 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 317
+    vyska_sedadla_bez_zateze: 870
+    objem_nadrze: 6.0
+    hmotnost: 104
+    pneu_predek: 130/70-17
+    pneu_zadek: 100/80-17
+    photos: [motorcycle]
+
+  -
+    name: DT50R
+    description_short: Objevte i terén mimo silnici
+    price: 74994
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Hledáte vzrušení z terénních vyjížděk na 50-ti kubíkovém motocyklu? DT50R je konstruován pro jízdu v terénu, čímž Vám otevírá svět plný dobrodružství. Když skončí silnice, vy skončit nemusíte.
+      Tento stroj těží z desetiletí věnovaných značkou Yamaha motokrosu. Svižný motor o objemu 50 ccm s kapalinovým chlazením, stejným jako mají tovární terénní motocykly, nabízí spoustu výkonu ve středních otáčkách. Díky pružné šestistupňové převodovce máte jízdu stále pod kontrolou a vždy udržíte motor ve výkonu.
+      Ultra odolný, ale lehký rám modelu DT50R je posazen na 21-ti palcovém předním a 18-ti palcovém zadním kole. Odpružení s dlouhým zdvihem je to, co potřebujete, když zamíříte v terénu na místa, kam nikdo jiný nejezdí.
+    rozmery: 2 050 x 850 x 1 160 mm
+    typ_motoru: jednoválec, kapalinou chlazený, 2ventilový
+    objem: 4.7cc
+    zdvih: 40.3 x 39.0
+    komprese: 12.0 : 1
+    starter: nožní
+    prevodovka: 6rychlostní, Převodovka
+    vykon: 2.1 kW @ 6 750 ot/min
+    tocivy_moment: 3.3 Nm @ 5 250 ot/min
+    karburator: PHBN 16
+    chlazeni: kapalinou
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: hydraulický tlumič
+    zdvih_pruziny_vpredu: 190
+    zdvih_pruziny_vzadu: 220
+    brzda_vpredu: Jednoduchá kotoučová, Ø 240 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 347
+    vyska_sedadla_bez_zateze: 900
+    objem_nadrze: 6.0
+    hmotnost: 104
+    pneu_predek: 110/80-18
+    pneu_zadek: 80/90-21
+    photos: [motorcycle]
+
+  -
+    name: Aerox R
+    description_short: Ovládni silnici
+    price: 64990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Motocykl Aerox R je o vzrušující jízdě v ulicích. Díky úžasnému vzhledu inspirovanému sportovními motocykly Yamaha R-série se jedná o nejsportovnější skútr o objemu 50 ccm.
+      Hledáte sportovní zrychlení? To Vám zajistí vysoce výkonný, kapalinou chlazený dvoutaktní motor o objemu 50 ccm. Hbité ovládání přichází s vybraným chováním sportovního podvozku, který Vám umožní snadno se proplétat provozem. A zatímco vyladěné odpružení a 13-ti palcové pneumatiky přemění každou ulici na hladkou jízdu, výkonný čelní světlomet modelu Aerox Vám poskytne působivé vystupování na silnici.
+      Model Aerox R má veškerý sportovní styl, který jste si vždy na silnici přáli mít, od barevné závodní grafiky až po letecký uzávěr palivové nádrže.
+    rozmery: 1 743 x 690 x 1 170 mm
+    typ_motoru: ednoválec, kapalinou chlazený, 2ventilový
+    objem: 49
+    zdvih: 40.0 x 39.2
+    komprese: 7.44 : 1
+    starter: elektrický a nožní
+    prevodovka: automatická s variátorem
+    vykon: 2.0 kW @ 6 500 ot/min
+    tocivy_moment: 3.7 Nm @ 4 500 ot/min
+    karburator: Gurtner
+    chlazeni: kapalinou
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 80
+    zdvih_pruziny_vzadu: 60
+    brzda_vpredu: Jednoduchá kotoučová, Ø 190 mm
+    brzda_vzadu: jednokotoučová, Ø 190 mm
+    svetla_vyska_bez_zateze: 185
+    vyska_sedadla_bez_zateze: 828
+    objem_nadrze: 7.0
+    hmotnost: 97
+    pneu_predek: 140/60-13
+    pneu_zadek: 130/60-13
+    photos: [motorcycle]
+
+  -
+    name: Aerox  SP55
+    description_short: Ukažte svůj styl
+    price: 66990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Aerox SP55 je jedinečný skútr svého druhu. Jedete-li na tomto motocyklu v červenočerném provedení ulicemi, nedivte se obdivným pohledům kolemjdoucích.
+      Tento motocykl Aerox je stejně osobitý jako jste Vy: od poutavého grafického provedení číslice „55“ po kola závodního stylu s červeným pruhem na ráfku a trojbarevné sedlo s potahem s karbonovým potiskem, na které se pohodlně vejdete i při jízdě ve dvou.
+      Tento motocykl, stejně jako celá řada Aerox, nabízí vynikající ovladatelnost a hbitost, která je zaručena výkonným kapalinou chlazeným dvoutaktním motorem o objemu 50 ccm. K tomu přispívá i jemně vyladěné nastavitelné odpružení. Ovšem to, co motocykl Aerox SP55 nabízí především, je postoj! Postoj, který Vám zaručí vlastní styl.
+    rozmery: 1 743 x 690 x 1 170 mm
+    typ_motoru: ednoválec, kapalinou chlazený, 2ventilový
+    objem: 49
+    zdvih: 40.0 x 39.2
+    komprese: 7.44 : 1
+    starter: elektrický a nožní
+    prevodovka: automatická s variátorem
+    vykon: 2.0 kW @ 6 500 ot/min
+    tocivy_moment: 3.7 Nm @ 4 500 ot/min
+    karburator: Gurtner
+    chlazeni: kapalinou
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 80
+    zdvih_pruziny_vzadu: 60
+    brzda_vpredu: Jednoduchá kotoučová, Ø 190 mm
+    brzda_vzadu: jednokotoučová, Ø 190 mm
+    svetla_vyska_bez_zateze: 185
+    vyska_sedadla_bez_zateze: 828
+    objem_nadrze: 7.0
+    hmotnost: 97
+    pneu_predek: 140/60-13
+    pneu_zadek: 130/60-13
+    photos: [motorcycle]
+
+  -
+    name: BW´s 12inch
+    description_short: Velká kola, velká zábava.
+    price: 52990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      BWs 12" je zábavný skútr o objemu 50 ccm, který se od konkurence výrazně liší. Je poháněn hbitým dvoutaktním vzduchem chlazeným motorem a pyšní se velkými 12-ti palcovými slitinovými koly zaručujícími dokonalý styl a špičkovou stabilitu.
+      A to ještě není všechno: Lehký dynamický podvozek je vybaven stavitelným zadním tlumičem s oddělenou nádobkou, nemusíte se proto bát žádné zatáčky. V kombinaci s elektrickým startérem a plně automatickou převodovkou máte k dispozici zábavné svezení kdykoliv budete chtít.
+      Díky dvojitému sedlu s integrovanými madly si pak zábavu můžete užívat ve dvou. Pro zvýraznění charakteru Vašeho stroje si můžete standardní grafické provedení jednoduše individualizovat.
+    rozmery: 1 mm 685 x 690 x 1 052
+    typ_motoru: jednoválec, Vzduchem chlazený, 2ventilový
+    objem: 4.2cc
+    zdvih: 40.0 x 39.2
+    komprese: 7.2 : 1
+    starter: elektrický a nožní
+    prevodovka: automatická s variátorem
+    vykon: 2.4 kW @ 6 500 ot/min
+    tocivy_moment: 3.6 Nm @ 6 000 ot/min
+    karburator: Gurtner
+    chlazeni: Vzduchem
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 70
+    zdvih_pruziny_vzadu: 70
+    brzda_vpredu: Jednoduchá kotoučová, Ø 180 mm
+    brzda_vzadu: bubnová, Ø 110 mm
+    svetla_vyska_bez_zateze: 124
+    vyska_sedadla_bez_zateze: 768
+    objem_nadrze: 5.3
+    hmotnost: 82
+    pneu_predek: 130/70-12
+    pneu_zadek: 120/70-12
+    photos: [motorcycle]
+
+  -
+    name: BW´s
+    description_short: Potěšení z legendárního skútru
+    price: 43990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      BWs je univerzální skútr typu "jeď kamkoliv - udělej cokoliv", který si právem vydobyl místo v srdcích jezdců na skútrech po celém světě. BWs poskytuje spoustu zábavy, problémy budete hledat těžko.
+      BWs je konstruován pro bezproblémové používání v každodenním provozu a je to typický skútr typu "nakopni, svez se, zaparkuj" s kombinací svižného dvoutaktního motoru o objemu 50 ccm, plně automatické převodovky, lehkého rámu, přilnavých desetipalcových pneumatik a dvojitého reflektoru.
+      BWs je ikona mezi skútry A nejen pro Vás. Díky dvojitému sedadlu a integrovaným madlům pro spolujezdce můžete na vyjížďku se svým BWs vždy vzít přítele. Toto je BWs: Vychutnávejte si jízdu, užívejte si život.
+    rozmery: 1 685 x  675 x 1 049 mm
+    typ_motoru: jednoválec, Vzduchem chlazený, 2ventilový
+    objem: 4.2cc
+    zdvih: 40.0 x 39.2
+    komprese: 7.2 : 1
+    starter: elektrický a nožní
+    prevodovka: automatická s variátorem
+    vykon: 2.4 kW @ 6 500 ot/min
+    tocivy_moment: 3.6 Nm @ 6 000 ot/min
+    karburator: Gurtner
+    chlazeni: Vzduchem
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 70
+    zdvih_pruziny_vzadu: 70
+    brzda_vpredu: Jednoduchá kotoučová, Ø 180 mm
+    brzda_vzadu: bubnová, Ø 110 mm
+    svetla_vyska_bez_zateze: 124
+    vyska_sedadla_bez_zateze: 768
+    objem_nadrze: 5.3
+    hmotnost: 82
+    pneu_predek: 150/80-10
+    pneu_zadek: 120/90-10
+    photos: [motorcycle]
+
+  -
+    name: JoG R
+    description_short: Ultra-lehký super-výkonný skútr o objemu 50 ccm.
+    price: 44990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      S hmotností pouhých 81 kg je JogR zázrak s muší váhou. Jeho tuhý rám je lehký a pevný, takže umožňuje bezpečnou manipulaci a snadnou manévrovatelnost.
+      Dvanáctipalcová hliníková kola s širokými pneumatikami zajišťují výbornou přilnavost, zatímco přední kotoučová a zadní bubnová brzda zajišťují plynulý a spolehlivý brzdný účinek. Chlazení vzduchem dvoutaktního motoru o objemu 50 ccm zajišťují boční vzduchové lapače, které skútru JogR dodávají jedinečný vzhled sportovního stroje.
+      Výrazná grafika a vysoko umístěný zadní světlomet modelu JogR zajišťují na silnici spolehlivou nepřehlédnutelnost. Jde o model, který je zároveň i praktický, protože odkládací prostor pro přilbu pod sedadlem doplňuje i praktický háček na zavazadlo.
+    rozmery: 1 740 x 675 x 1 065 mm
+    typ_motoru: jednoválec, Vzduchem chlazený, 2ventilový
+    objem: 4.0cc
+    zdvih: 40.0 x 39.2
+    komprese: 11.6 : 1
+    starter: elektrický a nožní
+    prevodovka: automatická s variátorem
+    vykon: 2.0 kW @ 7 000 ot/min
+    tocivy_moment: 2.46 Nm @ 7 000 ot/min
+    karburator: Gurtner PY12
+    chlazeni: Vzduchem
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 70
+    zdvih_pruziny_vzadu: 60
+    brzda_vpredu: Jednoduchá kotoučová, Ø 190 mm
+    brzda_vzadu: bubnová, Ø 110 mm
+    svetla_vyska_bez_zateze: 132
+    vyska_sedadla_bez_zateze: 770
+    objem_nadrze: 5.5
+    hmotnost: 81
+    pneu_predek: 120/70-12
+    pneu_zadek: 110/70-12
+    photos: [motorcycle]
+
+  -
+    name: Jog RR
+    description_short: Lehký sportovní skútr s kapalinou chlazeným motorem o objemu 50 ccm.
+    price: 47990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Pokud hledáte vynikající výkon, vyspělou technologii a atraktivní vzhled, je JogRR právě pro Vás. Jeho kapalinou chlazený motor o objemu 50 ccm poskytuje ještě vyšší výkon a točivý moment než vzduchem chlazený JogR, takže prožitek ze sportovní jízdy je ještě lepší.
+      Hmotnost je nízká i díky speciálnímu asymetrickému rámu konstruovanému s ohledem na stabilitu a dynamičnost. JogRR je vybaven zadním tlumičem v sportovním stylu a hliníkovými dvanáctipalcovými koly s přilnavými pneumatikami pro jisté držení stopy. Přední kotoučová brzda o průměru 190 zajišťuje spolehlivý brzdný účinek.
+      JogRR se pyšní kapotáží ve stylu supersportu s nápaditou grafikou, přístroji v závodním stylu, odkládacím prostorem pro přilbu pod sedadlem a sklopnými stupačkami.
+    rozmery: 1 740 x 675 x 1 065 mm
+    typ_motoru: jednoválec, Vzduchem chlazený, 2ventilový
+    objem: 4.0cc
+    zdvih: 40.0 x 39.2
+    komprese: 11.4 : 1
+    starter: elektrický a nožní
+    prevodovka: automatická s variátorem
+    vykon: 2.52 kW @ 7 000 ot/min
+    tocivy_moment: 2.97 Nm @ 6 500 ot/min
+    karburator: Gurtner PY12
+    chlazeni: Kapalinou
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 70
+    zdvih_pruziny_vzadu: 60
+    brzda_vpredu: Jednoduchá kotoučová, Ø 190 mm
+    brzda_vzadu: bubnová, Ø 110 mm
+    svetla_vyska_bez_zateze: 132
+    vyska_sedadla_bez_zateze: 770
+    objem_nadrze: 5.5
+    hmotnost: 84
+    pneu_predek: 120/70-12
+    pneu_zadek: 110/70-12
+    photos: [motorcycle]
+
+  -
+    name: Neo´s
+    description_short: Váš nejlepší přítel do města
+    price: 49990
+    vendor: yamaha
+    selltype: skladem
+    category: na
+    description: |-
+      Neos znamená dokonalý prostředek pro stylovou, spolehlivou a cenově dostupnou přepravu po městě, která Váš život zbaví shonu a spěchu. Je poháněn hbitým dvoutaktním motorem o objemu 50 ccm a vybaven elektrickým startérem a plně automatickou převodovkou. Stačí stisknout tlačítko, přidat plyn a můžete vyrazit.
+      Neos určuje styl svou ladnou konstrukcí, dvojitými světlomety a oranžově podsvíceným LCD přístrojovým panelem. Je ovšem obdařen i praktickými vlastnostmi - pohodlným dvojsedlem, prostorným podsedadlovým úložištěm na přilbu a novým sjednoceným brzdným systémem, který Vám maximálně usnadní cestu městským provozem.
+      Ať už jsou vaše jezdecké schopnosti jakékoli, Neos Vám umožní dopravit se do cíle jednoduše a bezpečně.
+    rozmery: 1 mm 840 x 663 x 1 118
+    typ_motoru: jednoválec, Vzduchem chlazený, 2ventilový
+    objem: 49
+    zdvih: 40.0 x 39.2
+    komprese: 10.7 : 1
+    starter: elektrický a nožní
+    prevodovka: automatická s variátorem
+    vykon: 2.09 kW @ 6 750 ot/min
+    tocivy_moment: 2.98 Nm @ 6 500 ot/min
+    karburator: Gurtner PY12
+    chlazeni: Vzduchem
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: hydraulická kyvná vidlice
+    zdvih_pruziny_vpredu: 70
+    zdvih_pruziny_vzadu: 60
+    brzda_vpredu: Jednoduchá kotoučová, Ø 190 mm
+    brzda_vzadu: bubnová, Ø 110 mm
+    svetla_vyska_bez_zateze: 146
+    vyska_sedadla_bez_zateze: 790
+    objem_nadrze: 6.1
+    hmotnost: 88
+    pneu_predek: 130/70-12
+    pneu_zadek: 120/70-12
+    photos: [motorcycle]
+
+  -
+    name: Neo´s 4
+    description_short: Chytrý způsob jízdy po městě
+    price: 54990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      Neos je ztělesněním stylu, pohody a spolehlivosti. Neos 4 je posílen čtyřtaktním výkonem značky Yamaha pro nižší emise a tišší jízdu.
+      S nízkou hmotností, nízkou výškou sedla, velkými 12-ti palcovými koly, 190 přední kotoučovou brzdou a novým jednotným systémem brzd sebevědomě prolétnete provozem. Zatímco modře podsvícený LCD displej a krásná slitinová kola dodávají styl detailům, elegantně plynulá kapotáž Vás pomáhá chránit před vlivy přírodních živlů.
+      Díky svému prostornému designu se pasažéři pohodlně projedou na luxusním dvojskle s madly. Zatímco uzamykatelný podsedlový úložný prostor se hodí na plnohodnotnou helmu, k dispozici je také praktický háček na zavazadla pro přepravu dalších tašek.
+    rozmery: 1 mm 840 x 663 x 1 118
+    typ_motoru: jednoválec, kapalinou chlazený, 4taktní
+    objem: 49
+    zdvih: 38.0 x 43.6
+    komprese: 12.0 : 1
+    starter: elektrický a nožní
+    prevodovka: automatická s variátorem
+    vykon: 2.30 kW @ 7 000 ot/min
+    tocivy_moment: 3.15 Nm @ 7 000 ot/min
+    karburator: Vstřikování paliva
+    chlazeni: Kapalinou
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: hydraulická kyvná vidlice
+    zdvih_pruziny_vpredu: 70
+    zdvih_pruziny_vzadu: 60
+    brzda_vpredu: Jednoduchá kotoučová, Ø 190 mm
+    brzda_vzadu: bubnová, Ø 110 mm
+    svetla_vyska_bez_zateze: 154
+    vyska_sedadla_bez_zateze: 790
+    objem_nadrze: 5.4
+    hmotnost: 95
+    pneu_predek: 130/70-12
+    pneu_zadek: 120/70-12
+    photos: [motorcycle]
+
+  -
+    name: Why
+    description_short: Moderní klasika.
+    price: 51990
+    vendor: yamaha
+    selltype: na_objednavku
+    category: na
+    description: |-
+      S hmotností pouhých 78 kg přináší lehký a klasický Why luxus a klasiku do třídy skútrů s velkými koly. Jednoduché a čisté křivky zaručují estetickou dokonalost a vzduchem chlazený motor o objemu 50 ccm poskytuje veškerý výkon, který potřebujete při jízdě sólo nebo ve dvou.
+      Why poskytuje rovnováhu, bezpečnost i hbitost díky šestnáctipalcovým třípaprskovým slitinovým kolům, která skvěle tlumí nerovnosti vozovky. Tvar rámu ve stylu retro a přístrojový panel mu propůjčují klasický, elegantní vzhled.
+      K modernímu skútru však patří také všestrannost- hluboká schránka na rukavice a nosič zavazadel poskytují dostatečný prostor pro náklad.
+    rozmery: 1 940 x 685 x 1 105 mm
+    typ_motoru: jednoválec, Vzduchem chlazený, 2ventilový
+    objem: 4.2cc
+    zdvih: 40.0 x 39.2
+    komprese: 7.25 : 1
+    starter: elektrický a nožní
+    prevodovka: automatická s variátorem
+    vykon: 2.4 kW @ 6 500 ot/min
+    tocivy_moment: 3.5 Nm @ 6 250 ot/min
+    karburator: Gurtner PY12
+    chlazeni: Vzduchem
+    spojka:
+    predni_tlumice: teleskopická vidlice
+    zadni_odpruzeni: kyvná vidlice
+    zdvih_pruziny_vpredu: 80
+    zdvih_pruziny_vzadu: 70
+    brzda_vpredu: Jednoduchá kotoučová, Ø 220 mm
+    brzda_vzadu: bubnová, Ø 110 mm
+    svetla_vyska_bez_zateze: 125
+    vyska_sedadla_bez_zateze: 765
+    objem_nadrze: 7.0
+    hmotnost: 78
+    pneu_predek: 70/90-16
+    pneu_zadek: Dexter
+    photos: [motorcycle]
+

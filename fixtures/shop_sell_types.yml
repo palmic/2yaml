@@ -1,0 +1,25 @@
+ShopSellType:
+  akce:
+    name: Akce
+    global: true
+    sequence: 1
+  skladem:
+    name: Sklad
+    global: true
+    sequence: 2
+  na_objednavku:
+    name: Objednávka
+    global: true
+    sequence: 3
+  predvadeci:
+    name: Demo
+    global: true
+    sequence: 4
+  bazar:
+    name: Bazar
+    global: true
+    sequence: 5
+  pujcovna:
+    name: Půjčovna
+    global: false
+    sequence: 6

@@ -1,0 +1,67 @@
+<?php $count = 50 ?>
+ShopPowerpart:
+  powerpart_bazar:
+    name: Powerpart KTM v bazaru
+    price: 5900
+    description_short: Powerpart KTM v bazaru
+    description: Powerpart KTM v bazaru
+    selltype: bazar
+    vendor: ktm
+    category: packy
+  powerpart_akce:
+    name: Powerpart KTM v akci
+    price: 5900
+    description: Powerpart KTM v akci
+    selltype: akce
+    vendor: ktm
+    category: packy
+  powerpart_predvadeci:
+    name: Předváděcí powerpart KTM
+    price: 5900
+    description_short: Předváděcí powerpart KTM
+    description: Předváděcí powerpart KTM
+    selltype: predvadeci
+    vendor: ktm
+    category: packy
+  powerpart_pujcovna:
+    name: Powerpart KTM k zapůjčení
+    price: 5900
+    description_short: Powerpart KTM k zapůjčení
+    description: Powerpart KTM k zapůjčení
+    selltype: pujcovna
+    vendor: ktm
+    category: packy
+<?php $selltypes = array('skladem'=>'skladem','predvadeci'=>'predvadeci','bazar'=>'bazar','akce'=>'akce','pujcovna'=>'pujcovna',) ?>
+<?php $vendors = array('suzuki'=>'suzuki','ktm'=>'ktm','yamaha'=>'yamaha') ?>
+<?php for ($i = 1; $i <= $count; $i++): ?>
+<?php $vendor = array_rand($vendors) ?>
+  powerpart_<?php echo $i ?>:
+    name: Powerpart <?php echo ucfirst($vendor) ?> skladem <?php echo $i."\n" ?>
+    price: 5900
+    description_short: Powerpart KTM skladem
+    description: Powerpart KTM skladem
+    selltype: <?php echo array_rand($selltypes)."\n" ?>
+    vendor: <?php echo $vendor."\n" ?>
+    category: packy
+
+<?php endfor ?>
+
+PhotoShopPowerpart:
+  powerpart_bazar:
+    photo: powerpart
+    shopPowerpart: powerpart_bazar
+  powerpart_akce:
+    photo: powerpart
+    shopPowerpart: powerpart_akce
+  powerpart_predvadeci:
+    photo: powerpart
+    shopPowerpart: powerpart_predvadeci
+  powerpart_pujcovna:
+    photo: powerpart
+    shopPowerpart: powerpart_pujcovna
+<?php for ($i = 1; $i <= $count; $i++): ?>
+  powerpart_<?php echo $i ?>:
+    photo: powerpart
+    shopPowerpart: powerpart_<?php echo $i ?>
+
+<?php endfor ?>

@@ -10,24 +10,40 @@
 class YamlConverter {
 
 	/**
+	 * @var array
+	 */
+	protected static $columnsTranslate = array();
+
+	/**
+	 * @var array
+	 */
+	protected static $columnsIgnore = array();
+
+	/**
 	 * @param DbResultInterface $result
 	 * @param string $modelName
 	 * @param string $outputFilePath
 	 * @return void
 	 */
-	public static function export(DbResultInterface $result, $modelName = '-', $outputFilePath = '') {
+	public static function export(DbResultInterface $result, $modelName = '', $outputFilePath = '') {
+		$data = array();
+		while ($result->next()) {
+			$data[$modelName][] = $result->get('*');
+		}
+		static::exportArray($data, $outputFilePath);
+	}
+
+	/**
+	 * @static
+	 * @param array $data
+	 * @param string $outputFilePath
+	 * @return void
+	 */
+	public static function exportArray($data, $outputFilePath) {
 		if (!class_exists('sfYaml')) {
 			throw new Exception('We need to have Symfony yaml component installed: http://components.symfony-project.org/yaml/installation');
 		}
-		$data = array();
-		while ($result->next()) {
-			$data[$modelName]['-'] = $result->get('*');
-		}
-		$data = static::convertData($data);
-		$fp = fopen($outputFilePath, 'w');
-		$dumper = new sfYamlDumper();
-		$yaml = $dumper->dump($data, 3);
-		file_put_contents($outputFilePath, $yaml);
+		file_put_contents($outputFilePath, sfYaml::dump(static::convertData($data), 4));
 	}
 
 	/**
@@ -38,10 +54,14 @@ class YamlConverter {
 		$out = array();
 		foreach ($data as $modelName => $modelData) {
 			foreach ($modelData as $recordName => $recordData) {
-				$recordName = self::cleanName($recordName);
+				$recordName = static::cleanRecordName($recordName);
 				foreach ($recordData as $columnName => $columnValue) {
-					$columnName = self::cleanName($columnName);
-					$out[$modelName][$recordName][$columnName] = $columnValue;
+					if (is_numeric(array_search($columnName, static::$columnsIgnore))) {
+						continue;
+					}
+					$columnName = array_key_exists($columnName, static::$columnsTranslate) ? static::$columnsTranslate[$columnName] : $columnName;
+					$columnName = static::cleanColumnName($columnName);
+					$out[$modelName][$recordName][$columnName] = static::cleanValue($columnName, $columnValue);
 				}
 			}
 		}
@@ -52,7 +72,33 @@ class YamlConverter {
 	 * @param string $name
 	 * @return string
 	 */
-	protected static function cleanName($name) {
+	public static function cleanRecordName($name) {
+		return preg_replace('/(record_)+/', 'record_', sprintf('record_%s', strtolower(preg_replace('/\-/', '_', self::cleanBasic($name)))));
+	}
+
+	/**
+	 * @static
+	 * @param string $name columnName after conversion (if any)
+	 * @param string $value
+	 * @return string
+	 */
+	protected static function cleanValue($name, $value) {
+		return $value;
+	}
+
+	/**
+	 * @param string $name
+	 * @return string
+	 */
+	private static function cleanColumnName($name) {
+		return preg_replace('/\-/', '_', self::cleanBasic($name));
+	}
+
+	/**
+	 * @param string $name
+	 * @return string
+	 */
+	protected static function cleanBasic($name) {
 		$name = strtr($name, array(
 								 "á" => "a", "č" => "c", "ď" => "d", "é" => "e", "ě" => "e", "í" => "i", "ň" => "n", "ó" => "o", "ř" => "r", "š" => "s", "ť" => "t", "ú" => "u", "ů" => "u", "ý" => "y", "ž" => "z",
 								 "Á" => "a", "Č" => "c", "Ď" => "d", "É" => "e", "Ě" => "e", "Í" => "i", "Ň" => "n", "Ó" => "o", "Ř" => "r", "Š" => "s", "Ť" => "t", "Ú" => "u", "Ů" => "u", "Ý" => "y", "Ž" => "z",

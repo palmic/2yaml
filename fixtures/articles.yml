@@ -1,0 +1,29 @@
+<?php $count = 50 ?>
+
+Article:
+  article_prezident:
+    heading: President vykuřpytel nadchl i znechutil. A Čtvrtníček ho nestíhal
+    perex:     V pražském Divadle Na zábradlí měla v den pochodu festivalu sexuálních menšin Prague Pride premiéru "hrdá zpěvohra" President vykuřpytel, která byla dalším překvapením showmana Petra Čtvrtníčka.
+    body:     Protože začátek nestihl, šlo spíše o koncert "home metalové" kapely Buzerant jakožto reakce na pochod homosexuálů, jímž právě zmíněný festival vyvrcholil. Večer byl tečkou za tímto pochodem, jehož účastníkům slíbil Čtvrtníček čtyřprocentní slevu. Ze sálu divadla byla vyklizena sedadla, čímž jeho kapacita vzrostla – přesto téměř nestačila. Vstupenky se prodávaly po 200 korunách a natěšené diváky nerozladilo ani to, že koncert začal s velkým zpožděním. Údajně proto, že soubor byl na zájezdu ve Vatikánu.
+    websites: [motart, racetool, ymoto]
+
+<?php for ($i = 1; $i <= $count; $i++): ?>
+  article_<?php echo $i ?>:
+    heading: Článek <?php echo $i."\n" ?>
+    perex: Perex článku <?php echo $i."\n" ?>
+    body: Tělo článku <?php echo $i."\n" ?>
+    websites: [motart, racetool, ymoto]
+
+<?php endfor ?>
+
+PhotoArticle:
+  article_prezident:
+    photo: article
+    article: article_prezident
+
+<?php for ($i = 1; $i <= $count; $i++): ?>
+  article_<?php echo $i ?>:
+    photo: article
+    article: article_<?php echo $i ?>
+
+<?php endfor ?>

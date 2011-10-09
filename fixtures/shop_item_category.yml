@@ -1,0 +1,168 @@
+ShopItemCategory:
+  na:
+    name: neupřesněno
+    limitProducts: motorcycles
+  naa:
+    name: neupřesněno
+    limitProducts: accessories
+  nap:
+    name: neupřesněno
+    limitProducts: powerparts
+
+  supersport:
+    name: supersport
+    limitProducts: motorcycles
+
+  touring:
+    name: touring
+    limitProducts: motorcycles
+
+  cruiser:
+    name: cruiser
+    limitProducts: motorcycles
+
+  enduro:
+    name: enduro
+    limitProducts: motorcycles
+
+  scooter:
+    name: scooter
+    limitProducts: motorcycles
+
+  motocross:
+    name: motocross
+    limitProducts: motorcycles
+
+  mx:
+    name: MX
+    limitProducts: motorcycles
+
+  supermoto:
+    name: supermoto
+    limitProducts: motorcycles
+
+  travel:
+    name: travel
+    limitProducts: motorcycles
+
+  naked:
+    name: naked
+    limitProducts: motorcycles
+
+  superbike:
+    name: superbike
+    limitProducts: motorcycles
+
+  sport_atv:
+    name: sport ATV
+    limitProducts: motorcycles
+
+  _125:
+    name: 125 ccm
+    limitProducts: motorcycles
+
+  motocykly50:
+    name: motocykly 50 ccm
+    limitProducts: motorcycles
+
+  motocykly125:
+    name: motocykly 125 ccm
+    limitProducts: motorcycles
+
+  skutry50:
+    name: skútry 50 ccm
+    limitProducts: motorcycles
+
+  skutry125:
+    name: skútry 125 ccm
+    limitProducts: motorcycles
+
+  sport_roadster:
+    name: sport roadster
+    limitProducts: motorcycles
+
+  cestovni:
+    name: cestovní
+    limitProducts: motorcycles
+
+  vmax:
+    name: VMAX
+    limitProducts: motorcycles
+
+  fz:
+    name: FZ
+    limitProducts: motorcycles
+
+  street:
+    name: street
+    limitProducts: motorcycles
+
+  offroad:
+    name: off-road
+    limitProducts: motorcycles
+
+  xj:
+    name: XJ
+    limitProducts: motorcycles
+
+  maxi_skutry:
+    name: maxi skútry
+    limitProducts: motorcycles
+
+  skutry_na_velkych_kolech:
+    name: skútry na velkých kolech
+    limitProducts: motorcycles
+
+  lodni_motory:
+    name: lodní motory
+    limitProducts: motorcycles
+
+  lode_a_nafukovaci_cluny:
+    name: lodě a nafukovací čluny
+    limitProducts: motorcycles
+
+  vodni_skutry:
+    name: vodní skútry
+    limitProducts: motorcycles
+
+  ctyrkolky_sportovni:
+    name: čtyřkolky sportovní
+    limitProducts: motorcycles
+
+  ctyrkolky_pracovni:
+    name: čtyřkolky pracovní
+    limitProducts: motorcycles
+
+  snezne_skutry:
+    name: sněžné skútry
+    limitProducts: motorcycles
+
+  side_by_side:
+    name: side by side
+    limitProducts: motorcycles
+
+  generatory:
+    name: generátory
+    limitProducts: motorcycles
+
+
+  prilby:
+    name: přilby
+    limitProducts: powerparts
+
+  packy:
+    name: páčky
+    limitProducts: powerparts
+
+  bundy:
+    name: bundy
+    limitProducts: accessories
+
+  boty:
+    name: boty
+    limitProducts: accessories
+
+  kufry:
+    name: kufry
+    limitProducts: powerparts
+

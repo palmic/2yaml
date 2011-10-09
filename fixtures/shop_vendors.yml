@@ -1,0 +1,10 @@
+ShopVendor:
+  suzuki:
+    name: Suzuki
+    websites: [motart]
+  ktm:
+    name: Ktm
+    websites: [racetool]
+  yamaha:
+    name: Yamaha
+    websites: [ymoto]

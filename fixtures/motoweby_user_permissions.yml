@@ -1,0 +1,40 @@
+# Up to two users by default: a superadmin (we suggest reserving this account for developer use and
+# removing it at production launch) and an admin (a member of the admin group). We suggest
+# giving the latter account to the client. The permissions dashboard is just plain dangerous,
+# so we show only the users and groups dashboards to regular admins
+
+sfGuardUser:
+  # Uncomment if you want a superadmin. it's usually not a good idea,
+  # and you can use the guard:promote-user task if you need it later
+
+  # sgu_superadmin:
+  #   username: superadmin
+  #   password: demo
+  #   first_name: Super
+  #   last_name: Admin
+  #   email_address: superadmin@apostrophe
+  #   is_super_admin: true
+
+  # Regular user admin can do stuff that actually makes sense for, let's say,
+  # your client's lead editor but can't delete permissions and otherwise just
+  # plain break the system
+  motoweby_admin:
+    username: adminer
+    password: prague
+    first_name: Admin
+    last_name: Racetool
+    email_address: admin@racetool.cz
+    is_super_admin: true
+  motoweby_editor:
+    username: editor
+    password: bistro
+    first_name: CMS
+    last_name: editor
+    email_address: info@racetool.cz
+sfGuardUserGroup:
+  motoweby_admin_admin:
+    User: motoweby_admin
+    Group: sfGuardGroup_admin
+  motoweby_editor_editor:
+    User: motoweby_editor
+    Group: sfGuardGroup_editor

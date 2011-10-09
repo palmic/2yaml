@@ -1,0 +1,193 @@
+<?php $count = 50 ?>
+ShopMotorcycle:
+  ktm_bazar:
+    name: 990 Adventure R
+    price: 48985
+    description_short: Enduro hard bazar
+    description: Toto bazarované 990 Adventure R je důkazem, jak sportovní může být enduro.
+    objem: 477
+    zdvih: 100 / 60,8
+    komprese: 12,5:1
+    starter: elektrický
+    prevodovka: 5 - stupňová
+    karburator: Keihin FCR-MX 41
+    technical_attributtes:
+    selltype: bazar
+    vendor: ktm
+    category: na
+    rozmery: 2070 x 715 x 1130 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, paralelní čtyřválec s náklonem dopředu, 4ventilový
+    vykon: 91.0 kW (123.8PS) @ 14500 rpm
+    tocivy_moment: 65.7 Nm (6.7 kg-m) @ 10500 rpm
+    chlazeni: kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Upside-down telescopic fork, Ø 41 mm
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 115
+    zdvih_pruziny_vzadu: 120
+    brzda_vpredu: Dvojitá kotoučová, Ø 310 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 130
+    vyska_sedadla_bez_zateze: 850
+    objem_nadrze: 17
+    hmotnost: 189
+    pneu_predek: 120/70 ZR17M/C (58W)
+    pneu_zadek: 180/55 ZR17M/C (73W)
+  ktm_akce:
+    name: 990 Adventure R
+    price: 48985
+    description_short: Enduro hard akce
+    description: Toto 990 Adventure R v akci je důkazem, jak sportovní může být enduro.
+    objem: 477
+    zdvih: 100 / 60,8
+    komprese: 12,5:1
+    starter: elektrický
+    prevodovka: 5 - stupňová
+    karburator: Keihin FCR-MX 41
+    technical_attributtes:
+    selltype: akce
+    vendor: ktm
+    category: na
+    rozmery: 2070 x 715 x 1130 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, paralelní čtyřválec s náklonem dopředu, 4ventilový
+    vykon: 91.0 kW (123.8PS) @ 14500 rpm
+    tocivy_moment: 65.7 Nm (6.7 kg-m) @ 10500 rpm
+    chlazeni: kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Upside-down telescopic fork, Ø 41 mm
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 115
+    zdvih_pruziny_vzadu: 120
+    brzda_vpredu: Dvojitá kotoučová, Ø 310 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 130
+    vyska_sedadla_bez_zateze: 850
+    objem_nadrze: 17
+    hmotnost: 189
+    pneu_predek: 120/70 ZR17M/C (58W)
+    pneu_zadek: 180/55 ZR17M/C (73W)
+  ktm_predvadeci:
+    name: 990 Adventure R
+    price: 48985
+    description_short: Enduro hard předváděcí
+    description: Toto predvadeci 990 Adventure R je důkazem, jak sportovní může být enduro.
+    objem: 477
+    zdvih: 100 / 60,8
+    komprese: 12,5:1
+    starter: elektrický
+    prevodovka: 5 - stupňová
+    karburator: Keihin FCR-MX 41
+    technical_attributtes:
+    selltype: predvadeci
+    vendor: ktm
+    category: na
+    rozmery: 2070 x 715 x 1130 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, paralelní čtyřválec s náklonem dopředu, 4ventilový
+    vykon: 91.0 kW (123.8PS) @ 14500 rpm
+    tocivy_moment: 65.7 Nm (6.7 kg-m) @ 10500 rpm
+    chlazeni: kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Upside-down telescopic fork, Ø 41 mm
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 115
+    zdvih_pruziny_vzadu: 120
+    brzda_vpredu: Dvojitá kotoučová, Ø 310 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 130
+    vyska_sedadla_bez_zateze: 850
+    objem_nadrze: 17
+    hmotnost: 189
+    pneu_predek: 120/70 ZR17M/C (58W)
+    pneu_zadek: 180/55 ZR17M/C (73W)
+  ktm_pujcovna:
+    name: 990 Adventure R
+    price: 48985
+    description_short: Enduro hard k zapůjčení
+    description: Toto 990 Adventure R k zapůjčení je důkazem, jak sportovní může být enduro.
+    objem: 477
+    zdvih: 100 / 60,8
+    komprese: 12,5:1
+    starter: elektrický
+    prevodovka: 5 - stupňová
+    karburator: Keihin FCR-MX 41
+    technical_attributtes:
+    selltype: pujcovna
+    vendor: ktm
+    category: na
+    rozmery: 2070 x 715 x 1130 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, paralelní čtyřválec s náklonem dopředu, 4ventilový
+    vykon: 91.0 kW (123.8PS) @ 14500 rpm
+    tocivy_moment: 65.7 Nm (6.7 kg-m) @ 10500 rpm
+    chlazeni: kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Upside-down telescopic fork, Ø 41 mm
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 115
+    zdvih_pruziny_vzadu: 120
+    brzda_vpredu: Dvojitá kotoučová, Ø 310 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 130
+    vyska_sedadla_bez_zateze: 850
+    objem_nadrze: 17
+    hmotnost: 189
+    pneu_predek: 120/70 ZR17M/C (58W)
+    pneu_zadek: 180/55 ZR17M/C (73W)
+<?php $selltypes = array('skladem'=>'skladem','predvadeci'=>'predvadeci','bazar'=>'bazar','akce'=>'akce','pujcovna'=>'pujcovna',) ?>
+<?php $vendors = array('suzuki'=>'suzuki','ktm'=>'ktm'/* yamaha uz pouze konkretni dodana data,'yamaha'=>'yamaha'*/) ?>
+<?php for ($i = 1; $i <= $count; $i++): ?>
+<?php $vendor = array_rand($vendors) ?>
+  motorcycle_<?php echo $i ?>:
+    name: <?php echo ucfirst($vendor) ?> 990 Adventure R <?php echo $i."\n" ?>
+    price: 48985
+    description_short: 990 Adventure
+    description: Toto 990 Adventure R, které je skladem je důkazem, jak sportovní může být enduro.
+    objem: 477
+    zdvih: 100 / 60,8
+    komprese: 12,5:1
+    starter: elektrický
+    prevodovka: 5 - stupňová
+    karburator: Keihin FCR-MX 41
+    technical_attributtes:
+    selltype: <?php echo array_rand($selltypes)."\n" ?>
+    vendor: <?php echo $vendor."\n" ?>
+    category: na
+    rozmery: 2070 x 715 x 1130 mm
+    typ_motoru: kapalinou chlazený, 4taktní, DOHC, paralelní čtyřválec s náklonem dopředu, 4ventilový
+    vykon: 91.0 kW (123.8PS) @ 14500 rpm
+    tocivy_moment: 65.7 Nm (6.7 kg-m) @ 10500 rpm
+    chlazeni: kapalinou
+    spojka: mokrá, vícelamelová s vinutými pružinami
+    predni_tlumice: Upside-down telescopic fork, Ø 41 mm
+    zadni_odpruzeni: kyvná vidlice, (kloubové odpružení)
+    zdvih_pruziny_vpredu: 115
+    zdvih_pruziny_vzadu: 120
+    brzda_vpredu: Dvojitá kotoučová, Ø 310 mm
+    brzda_vzadu: jednokotoučová, Ø 220 mm
+    svetla_vyska_bez_zateze: 130
+    vyska_sedadla_bez_zateze: 850
+    objem_nadrze: 17
+    hmotnost: 189
+    pneu_predek: 120/70 ZR17M/C (58W)
+    pneu_zadek: 180/55 ZR17M/C (73W)
+
+<?php endfor ?>
+
+PhotoShopMotorcycle:
+  ktm_bazar:
+    photo: motorcycle
+    shopMotorcycle: ktm_bazar
+  ktm_akce:
+    photo: motorcycle
+    shopMotorcycle: ktm_akce
+  ktm_predvadeci:
+    photo: motorcycle
+    shopMotorcycle: ktm_predvadeci
+  ktm_pujcovna:
+    photo: motorcycle
+    shopMotorcycle: ktm_pujcovna
+<?php for ($i = 1; $i <= $count; $i++): ?>
+  motorcycle_<?php echo $i ?>:
+    photo: motorcycle
+    shopMotorcycle: motorcycle_<?php echo $i ?>
+
+<?php endfor ?>

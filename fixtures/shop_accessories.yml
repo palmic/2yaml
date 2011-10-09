@@ -1,0 +1,68 @@
+<?php $count = 50 ?>
+ShopAccessory:
+  accessory_bazar:
+    name: Příslušenství v bazaru
+    price: 11900
+    description_short: Bunda na choppera v bazaru
+    description: Bunda na choppera v bazaru
+    selltype: bazar
+    vendor: ktm
+    category: bundy
+  accessory_akce:
+    name: Příslušenství v akci
+    price: 11900
+    description_short: Bunda na choppera v akci
+    description: Bunda na choppera v akci
+    selltype: akce
+    vendor: ktm
+    category: bundy
+  accessory_predvadeci:
+    name: Předváděcí příslušenství
+    price: 11900
+    description_short: Předváděcí bunda na choppera
+    description: Předváděcí bunda na choppera
+    selltype: predvadeci
+    vendor: ktm
+    category: bundy
+  accessory_pujcovna:
+    name: Předváděcí příslušenství
+    price: 11900
+    description_short: Bunda na choppera k zapůjčení
+    description: Bunda na choppera k zapůjčení
+    selltype: pujcovna
+    vendor: ktm
+    category: bundy
+<?php $selltypes = array('skladem'=>'skladem','predvadeci'=>'predvadeci','bazar'=>'bazar','akce'=>'akce','pujcovna'=>'pujcovna',) ?>
+<?php $vendors = array('suzuki'=>'suzuki','ktm'=>'ktm','yamaha'=>'yamaha') ?>
+<?php for ($i = 1; $i <= $count; $i++): ?>
+<?php $vendor = array_rand($vendors) ?>
+  accessory_<?php echo $i ?>:
+    name: Příslušenství <?php echo ucfirst($vendor) ?> skladem <?php echo $i."\n" ?>
+    price: 11900
+    description_short: Bunda na choppera skladem
+    description: Bunda na choppera skladem
+    selltype: <?php echo array_rand($selltypes)."\n" ?>
+    vendor: <?php echo $vendor."\n" ?>
+    category: bundy
+
+<?php endfor ?>
+
+PhotoShopAccessory:
+  accessory_bazar:
+    photo: accessory
+    shopAccessory: accessory_bazar
+  accessory_akce:
+    photo: accessory
+    shopAccessory: accessory_akce
+  accessory_predvadeci:
+    photo: accessory
+    shopAccessory: accessory_predvadeci
+  accessory_pujcovna:
+    photo: accessory
+    shopAccessory: accessory_pujcovna
+<?php for ($i = 1; $i <= $count; $i++): ?>
+  accessory_<?php echo $i ?>:
+    photo: accessory
+    shopAccessory: accessory_<?php echo $i ?>
+
+<?php endfor ?>

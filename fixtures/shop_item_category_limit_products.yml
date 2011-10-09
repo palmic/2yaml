@@ -1,0 +1,10 @@
+ShopItemCategoryLimitProducts:
+  motorcycles:
+    name: motocykly
+    model: ShopMotorcycle
+  accessories:
+    name: doplňky
+    model: ShopAccessory
+  powerparts:
+    name: powerparts
+    model: ShopPowerpart

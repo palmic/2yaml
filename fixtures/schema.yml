@@ -1,0 +1,579 @@
+---
+Article:
+  actAs:
+    Timestampable: ~
+    Sluggable: { fields: [heading] }
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    heading:
+      type: string(255)
+    perex:
+      type: text
+    body:
+      type: text
+    lucene_dirty:
+      type: boolean
+      default: false
+  relations:
+    photos:
+      class: Photo
+      foreignAlias: articles
+      refClass: PhotoArticle
+    websites:
+      foreignAlias: articles
+      class: ShopWebsite
+      refClass: ShopWebsiteArticle
+
+ShopMotorcycle:
+  actAs:
+    Timestampable: ~
+    Sluggable: { fields: [name] }
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    name:
+      type: string(255)
+    shop_sell_type_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    shop_item_category_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    shop_vendor_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    price:
+      type: integer(4)
+    description_short:
+      type: string(255)
+    description:
+      type: text
+    objem:
+      type: integer(2)
+      unsigned: true
+    zdvih:
+      type: string(255)
+    komprese:
+      type: string(255)
+    rozmery:
+      type: string(255)
+    typ_motoru:
+      type: string(255)
+    vykon:
+      type: string(255)
+    tocivy_moment:
+      type: string(255)
+    chlazeni:
+      type: string(255)
+    spojka:
+      type: string(255)
+    predni_tlumice:
+      type: string(255)
+    zadni_odpruzeni:
+      type: string(255)
+    zdvih_pruziny_vpredu:
+      type: int
+    zdvih_pruziny_vzadu:
+      type: int
+    brzda_vpredu:
+      type: string(255)
+    brzda_vzadu:
+      type: string(255)
+    svetla_vyska_bez_zateze:
+      type: int
+    vyska_sedadla_bez_zateze:
+      type: int
+    objem_nadrze:
+      type: float
+      scale: 1
+    hmotnost:
+      type: float
+      scale: 1
+    pneu_predek:
+      type: string(255)
+    pneu_zadek:
+      type: string(255)
+    starter:
+      type: string(255)
+    prevodovka:
+      type: string(255)
+    karburator:
+      type: string(255)
+    technical_attributtes:
+      type: text
+    download:
+      type: text
+    lucene_dirty:
+      type: boolean
+      default: false
+  relations:
+    selltype:
+      class: ShopSellType
+      foreignAlias: shopMotorcycles
+    category:
+      class: ShopItemCategory
+      foreignAlias: shopMotorcycleItems
+    vendor:
+      class: ShopVendor
+      foreignAlias: shopMotorcycles
+    photos:
+      class: Photo
+      foreignAlias: shopMotorcycles
+      refClass: PhotoShopMotorcycle
+    accessories:
+      foreignAlias: motorcycles
+      class: ShopAccessory
+      refClass: ShopAccessoryShopMotorcycle
+    powerparts:
+      foreignAlias: motorcycles
+      class: ShopPowerpart
+      refClass: ShopPowerpartShopMotorcycle
+
+ShopAccessory:
+  actAs:
+    Timestampable: ~
+    Sluggable: { fields: [name] }
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    name:
+      type: string(255)
+    shop_sell_type_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    shop_item_category_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    shop_vendor_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    price:
+      type: integer(4)
+    description_short:
+      type: string(255)
+    description:
+      type: text
+    lucene_dirty:
+      type: boolean
+      default: false
+  relations:
+    selltype:
+      class: ShopSellType
+      foreignAlias: shopAccessories
+    category:
+      class: ShopItemCategory
+      foreignAlias: shopAccessoryItems
+    vendor:
+      class: ShopVendor
+      foreignAlias: shopAccessories
+    photos:
+      class: Photo
+      foreignAlias: shopAccessories
+      refClass: PhotoShopAccessory
+
+ShopPowerpart:
+  actAs:
+    Timestampable: ~
+    Sluggable: { fields: [name] }
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    name:
+      type: string(255)
+    shop_sell_type_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    shop_item_category_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    shop_vendor_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    price:
+      type: integer(4)
+    description_short:
+      type: string(255)
+    description:
+      type: text
+    lucene_dirty:
+      type: boolean
+      default: false
+  relations:
+    selltype:
+      class: ShopSellType
+      foreignAlias: shopPowerparts
+    category:
+      class: ShopItemCategory
+      foreignAlias: shopPowerpartItems
+    vendor:
+      class: ShopVendor
+      foreignAlias: shopPowerparts
+    photos:
+      class: Photo
+      foreignAlias: shopPowerparts
+      refClass: PhotoShopPowerpart
+
+
+ShopWebsiteArticle:
+  columns:
+    shop_website_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+    article_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+  relations:
+    shopWebsite:
+      class: ShopWebsite
+      onDelete: CASCADE
+    article:
+      class: Article
+      onDelete: CASCADE
+ShopWebsiteShopVendor:
+  columns:
+    shop_website_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+    shop_vendor_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+  relations:
+    shopWebsite:
+      class: ShopWebsite
+      onDelete: CASCADE
+    shopVendor:
+      class: ShopVendor
+      onDelete: CASCADE
+
+ShopPowerpartShopMotorcycle:
+  columns:
+    shop_powerpart_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+    shop_motorcycle_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+  relations:
+    shopPowerpart:
+      class: ShopPowerpart
+      onDelete: CASCADE
+    shopMotorcycle:
+      class: ShopMotorcycle
+      onDelete: CASCADE
+
+ShopAccessoryShopMotorcycle:
+  columns:
+    shop_accessory_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+    shop_motorcycle_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+  relations:
+    shopAccessory:
+      class: ShopAccessory
+      onDelete: CASCADE
+    shopMotorcycle:
+      class: ShopMotorcycle
+      onDelete: CASCADE
+
+ShopSellType:
+  actAs:
+    Sluggable: { fields: [name] }
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    name:
+      type: string(255)
+    global:
+      type: boolean
+      default: true
+    sequence:
+      type: integer(2)
+      unsigned: true
+      notnull: true
+      default: 1
+  indexes:
+    sequence:
+      fields: [sequence]
+
+ShopVendor:
+  actAs:
+    Timestampable: ~
+    Sluggable: { fields: [name] }
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    name:
+      type: string(255)
+      notnull: true
+  relations:
+    websites:
+      foreignAlias: vendors
+      class: ShopWebsite
+      refClass: ShopWebsiteShopVendor
+
+ShopItemCategory:
+  actAs:
+    Timestampable: ~
+    Sluggable: { fields: [shop_item_category_limit_products_id, name] }
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    shop_item_category_limit_products_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    name:
+      type: string(255)
+      notnull: true
+  relations:
+    limitProducts:
+      class: ShopItemCategoryLimitProducts
+      onDelete: CASCADE
+  indexes:
+    name_index:
+      fields: [name, shop_item_category_limit_products_id]
+      type: unique
+
+#limituje item_types na jednotlive konkretni modely
+ShopItemCategoryLimitProducts:
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    name:
+      type: string(255)
+      unique: true
+    model:
+      type: string(255)
+      unique: true
+
+Photo:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      autoincrement: true
+      unsigned: true
+    filename:
+      type: string(255)
+      notnull: true
+    dirname:
+      type: string(255)
+      notnull: true
+    parent_id:
+      type: integer(3)
+      notnull: false
+      unsigned: true
+    description:
+      type: string
+      notnull: false
+    size_x:
+      type: integer(3)
+      notnull: true
+      unsigned: true
+    size_y:
+      type: integer(3)
+      notnull: true
+      unsigned: true
+  relations:
+    parent:
+      class: Photo
+      local: parent_id
+      foreign: id
+      foreignAlias: thumbnails
+      onDelete: CASCADE
+
+PhotoShopMotorcycle:
+  actAs:
+    Sortable:
+      uniqueBy: [shop_motorcycle_id]
+  columns:
+    photo_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+    shop_motorcycle_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+  relations:
+    photo:
+      class: Photo
+      onDelete: CASCADE
+    shopMotorcycle:
+      class: ShopMotorcycle
+      foreignAlias: photosShopMotorcycle
+      onDelete: CASCADE
+PhotoShopAccessory:
+  actAs:
+    Sortable:
+      uniqueBy: [shop_accessory_id]
+  columns:
+    photo_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+    shop_accessory_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+  relations:
+    photo:
+      class: Photo
+      onDelete: CASCADE
+    shopAccessory:
+      class: ShopAccessory
+      foreignAlias: photosShopAccessory
+      onDelete: CASCADE
+PhotoShopPowerpart:
+  actAs:
+    Sortable:
+      uniqueBy: [shop_powerpart_id]
+  columns:
+    photo_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+    shop_powerpart_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+  relations:
+    photo:
+      class: Photo
+      onDelete: CASCADE
+    shopPowerpart:
+      class: ShopPowerpart
+      foreignAlias: photosShopPowerpart
+      onDelete: CASCADE
+PhotoArticle:
+  actAs:
+    Sortable:
+      uniqueBy: [article_id]
+  columns:
+    photo_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+    article_id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      notnull: true
+  relations:
+    photo:
+      class: Photo
+      onDelete: CASCADE
+    article:
+      class: Article
+      foreignAlias: photosArticle
+      onDelete: CASCADE
+
+ContactForm:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    shop_website_id:
+      type: integer(3)
+      unsigned: true
+      notnull: true
+    firstname:
+      type: string(255)
+    surname:
+      type: string(255)
+    email:
+      type: string(255)
+    message:
+      type: text
+  relations:
+    website:
+      class: ShopWebsite
+      onDelete: CASCADE
+
+ShopWebsite:
+  columns:
+    id:
+      type: integer(3)
+      primary: true
+      unsigned: true
+      autoincrement: true
+      notnull: true
+    slug:
+      type: string(255)
+  indexes:
+    slug:
+      fields: [slug]

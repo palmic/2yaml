@@ -1,0 +1,13 @@
+Photo:
+  motorcycle:
+    filename: motorcycle.png
+    dirname: test
+  powerpart:
+    filename: powerpart.jpg
+    dirname: test
+  accessory:
+    filename: jacket.jpg
+    dirname: test
+  article:
+    filename: article.jpg
+    dirname: test
