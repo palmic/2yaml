@@ -6,7 +6,7 @@ set_time_limit(99999);
 $task = 'export2yaml';
 
 $databaseName = 'csv2db';
-$tableNames = array('ktm', 'suzuki');
+$tableNames = array('ktm', 'suzuki', 'yamaha');
 
 try {
     $dbC = new DbControl($task, 'utf8');
@@ -77,7 +77,8 @@ try {
 		$photosBoundsExport = array();
 		foreach ($photosBoundsTable as $recordName => $photosRecordsNames) {
 			foreach ($photosRecordsNames as $photoRecordName) {
-				$photosBoundsExport[] = array(
+				$k = sprintf('%s_%d', $tableName, count($photosBoundsExport));
+				$photosBoundsExport[$k] = array(
 					'photo' => MotowebyYamlConverter::cleanRecordName($photoRecordName),
 					'shopMotorcycle' => MotowebyYamlConverter::cleanRecordName($recordName),
 				);
